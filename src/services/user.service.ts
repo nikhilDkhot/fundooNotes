@@ -13,7 +13,7 @@ class UserService {
   };
 
   //create a new user
-  public newUser = async (body) => {
+  public register = async (body) => {
     const data = await this.User.create(body);
     return data;
   };
@@ -33,9 +33,20 @@ class UserService {
   };
 
   //get a single user
-  public getUser = async (id) => {
-    const data = await this.User.findByPk(id);
-    return data;
+  public login = async (email,password) => {
+    const data = await this.User.findOne({where :{ email : email}});
+    let obj ={
+      data : data,
+      message : "invalid user"
+    }
+    if(data && (data.password === password)){
+       obj.message ='login done';
+    } 
+    else{
+      obj.data = null;
+      return obj
+    }
+    return obj;
   };
 }
 

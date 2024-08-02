@@ -36,17 +36,17 @@ class UserController {
    * @param {object} Response - response object
    * @param {Function} NextFunction
    */
-  public getUser = async (
+  public login = async (
     req: Request,
     res: Response,
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data = await this.UserService.getUser(req.params.id);
+      const data = await this.UserService.login(req.body.email,req.body.password);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
-        data: data,
-        message: 'User fetched successfully'
+        data: data.data,
+        message: data.message
       });
     } catch (error) {
       next(error);
@@ -59,17 +59,17 @@ class UserController {
    * @param {object} Response - response object
    * @param {Function} NextFunction
    */
-  public newUser = async (
+  public register = async (
     req: Request,
     res: Response,
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data = await this.UserService.newUser(req.body);
+      const data = await this.UserService.register(req.body);
       res.status(HttpStatus.CREATED).json({
         code: HttpStatus.CREATED,
         data: data,
-        message: 'User created successfully'
+        message: 'register successfully'
       });
     } catch (error) {
       next(error);

@@ -10,10 +10,11 @@ import userRoute from './user.route';
  */
 const routes = (): IRouter => {
   router.get('/', (req, res) => {
-    res.json('Welcome');
+    res.json('Welcome to fondooNotes App');
   });
   router.use('/users', new userRoute().getRoutes());
 
+//router.use(new userRoute().getRoutes());
   return router;
 };
 

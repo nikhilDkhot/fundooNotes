@@ -19,13 +19,14 @@ class UserRoutes {
 
     //route to create a new user
     this.router.post(
-      '',
-      this.UserValidator.newUser,
-      this.UserController.newUser
+      '/register',
+      //this.UserValidator.newUser,
+      this.UserController.register
     );
 
     //route to get a single user by their id
-    this.router.get('/:id', userAuth, this.UserController.getUser);
+    this.router.post('/login', //userAuth, 
+    this.UserController.login);
 
     //route to update a user by their id
     this.router.put('/:id', this.UserController.updateUser);

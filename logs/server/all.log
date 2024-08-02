@@ -1,0 +1,326 @@
+error: uncaughtException: Please install pg package manually
+Error: Please install pg package manually
+    at ConnectionManager._loadDialectModule (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\dialects\abstract\connection-manager.js:81:15)
+    at new ConnectionManager (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\dialects\postgres\connection-manager.js:18:24)
+    at new PostgresDialect (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\dialects\postgres\index.js:15:30)
+    at new Sequelize (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\sequelize.js:368:20)
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\config\database.ts:25:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-6233413849285214.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-6233413849285214.js:114:20) {"date":"Thu Aug 01 2024 11:24:01 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":74028.968},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":94550,"external":2319978,"heapTotal":34193408,"heapUsed":19368888,"rss":63041536},"pid":14272,"uid":null,"version":"v20.10.0"},"stack":"Error: Please install pg package manually\n    at ConnectionManager._loadDialectModule (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:81:15)\n    at new ConnectionManager (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\dialects\\postgres\\connection-manager.js:18:24)\n    at new PostgresDialect (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\dialects\\postgres\\index.js:15:30)\n    at new Sequelize (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\sequelize.js:368:20)\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\config\\database.ts:25:19)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-6233413849285214.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-6233413849285214.js:114:20)","timestamp":"2024-08-01T05:54:01.262Z","trace":[{"column":15,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js","function":"ConnectionManager._loadDialectModule","line":81,"method":"_loadDialectModule","native":false},{"column":24,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\dialects\\postgres\\connection-manager.js","function":"new ConnectionManager","line":18,"method":null,"native":false},{"column":30,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\dialects\\postgres\\index.js","function":"new PostgresDialect","line":15,"method":null,"native":false},{"column":20,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\sequelize.js","function":"new Sequelize","line":368,"method":null,"native":false},{"column":19,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\config\\database.ts","function":null,"line":25,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-6233413849285214.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-6233413849285214.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T05:55:28.528Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T05:55:28.748Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:20:26.717Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:20:26.919Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:21:27.214Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:21:27.371Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:27:13.038Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:27:13.221Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:27:20.438Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:27:20.596Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:27:23.142Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:27:23.346Z"}
+error: uncaughtException: Unrecognized datatype for attribute "user.dob"
+Error: Unrecognized datatype for attribute "user.dob"
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\model.js:1046:15
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\lodash\lodash.js:13469:38
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\lodash\lodash.js:4967:15
+    at baseForOwn (E:\New journy\fundoNotes\fundooNotes\node_modules\lodash\lodash.js:3032:24)
+    at Function.mapValues (E:\New journy\fundoNotes\fundooNotes\node_modules\lodash\lodash.js:13468:7)
+    at Function.init (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\model.js:1042:28)
+    at exports.default (E:\New journy\fundoNotes\fundooNotes\src\models\user.ts:26:8)
+    at new UserService (E:\New journy\fundoNotes\fundooNotes\src\services\user.service.ts:7:22)
+    at new UserController (E:\New journy\fundoNotes\fundooNotes\src\controllers\user.controller.ts:8:24)
+    at new UserRoutes (E:\New journy\fundoNotes\fundooNotes\src\routes\user.route.ts:7:28) {"date":"Thu Aug 01 2024 12:12:12 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":76920.671},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":123710,"external":2356302,"heapTotal":53174272,"heapUsed":29080472,"rss":80769024},"pid":304,"uid":null,"version":"v20.10.0"},"stack":"Error: Unrecognized datatype for attribute \"user.dob\"\n    at E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\model.js:1046:15\n    at E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js:13469:38\n    at E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js:4967:15\n    at baseForOwn (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js:3032:24)\n    at Function.mapValues (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js:13468:7)\n    at Function.init (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\model.js:1042:28)\n    at exports.default (E:\\New journy\\fundoNotes\\fundooNotes\\src\\models\\user.ts:26:8)\n    at new UserService (E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\user.service.ts:7:22)\n    at new UserController (E:\\New journy\\fundoNotes\\fundooNotes\\src\\controllers\\user.controller.ts:8:24)\n    at new UserRoutes (E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\user.route.ts:7:28)","timestamp":"2024-08-01T06:42:12.959Z","trace":[{"column":15,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\model.js","function":null,"line":1046,"method":null,"native":false},{"column":38,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js","function":null,"line":13469,"method":null,"native":false},{"column":15,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js","function":null,"line":4967,"method":null,"native":false},{"column":24,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js","function":"baseForOwn","line":3032,"method":null,"native":false},{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js","function":"Function.mapValues","line":13468,"method":"mapValues","native":false},{"column":28,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\model.js","function":"Function.init","line":1042,"method":"init","native":false},{"column":8,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\models\\user.ts","function":"exports.default","line":26,"method":"default","native":false},{"column":22,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\user.service.ts","function":"new UserService","line":7,"method":null,"native":false},{"column":24,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\controllers\\user.controller.ts","function":"new UserController","line":8,"method":null,"native":false},{"column":28,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":7,"method":null,"native":false}]}
+error: uncaughtException: Unrecognized datatype for attribute "user.dob"
+Error: Unrecognized datatype for attribute "user.dob"
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\model.js:1046:15
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\lodash\lodash.js:13469:38
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\lodash\lodash.js:4967:15
+    at baseForOwn (E:\New journy\fundoNotes\fundooNotes\node_modules\lodash\lodash.js:3032:24)
+    at Function.mapValues (E:\New journy\fundoNotes\fundooNotes\node_modules\lodash\lodash.js:13468:7)
+    at Function.init (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\model.js:1042:28)
+    at exports.default (E:\New journy\fundoNotes\fundooNotes\src\models\user.ts:26:8)
+    at new UserService (E:\New journy\fundoNotes\fundooNotes\src\services\user.service.ts:7:22)
+    at new UserController (E:\New journy\fundoNotes\fundooNotes\src\controllers\user.controller.ts:8:24)
+    at new UserRoutes (E:\New journy\fundoNotes\fundooNotes\src\routes\user.route.ts:7:28) {"date":"Thu Aug 01 2024 12:12:17 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":76924.718},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":123710,"external":2356302,"heapTotal":53436416,"heapUsed":29209416,"rss":80957440},"pid":13728,"uid":null,"version":"v20.10.0"},"stack":"Error: Unrecognized datatype for attribute \"user.dob\"\n    at E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\model.js:1046:15\n    at E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js:13469:38\n    at E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js:4967:15\n    at baseForOwn (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js:3032:24)\n    at Function.mapValues (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js:13468:7)\n    at Function.init (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\model.js:1042:28)\n    at exports.default (E:\\New journy\\fundoNotes\\fundooNotes\\src\\models\\user.ts:26:8)\n    at new UserService (E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\user.service.ts:7:22)\n    at new UserController (E:\\New journy\\fundoNotes\\fundooNotes\\src\\controllers\\user.controller.ts:8:24)\n    at new UserRoutes (E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\user.route.ts:7:28)","timestamp":"2024-08-01T06:42:17.013Z","trace":[{"column":15,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\model.js","function":null,"line":1046,"method":null,"native":false},{"column":38,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js","function":null,"line":13469,"method":null,"native":false},{"column":15,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js","function":null,"line":4967,"method":null,"native":false},{"column":24,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js","function":"baseForOwn","line":3032,"method":null,"native":false},{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js","function":"Function.mapValues","line":13468,"method":"mapValues","native":false},{"column":28,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\model.js","function":"Function.init","line":1042,"method":"init","native":false},{"column":8,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\models\\user.ts","function":"exports.default","line":26,"method":"default","native":false},{"column":22,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\user.service.ts","function":"new UserService","line":7,"method":null,"native":false},{"column":24,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\controllers\\user.controller.ts","function":"new UserController","line":8,"method":null,"native":false},{"column":28,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":7,"method":null,"native":false}]}
+error: uncaughtException: Unrecognized datatype for attribute "user.dob"
+Error: Unrecognized datatype for attribute "user.dob"
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\model.js:1046:15
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\lodash\lodash.js:13469:38
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\lodash\lodash.js:4967:15
+    at baseForOwn (E:\New journy\fundoNotes\fundooNotes\node_modules\lodash\lodash.js:3032:24)
+    at Function.mapValues (E:\New journy\fundoNotes\fundooNotes\node_modules\lodash\lodash.js:13468:7)
+    at Function.init (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\model.js:1042:28)
+    at exports.default (E:\New journy\fundoNotes\fundooNotes\src\models\user.ts:26:8)
+    at new UserService (E:\New journy\fundoNotes\fundooNotes\src\services\user.service.ts:7:22)
+    at new UserController (E:\New journy\fundoNotes\fundooNotes\src\controllers\user.controller.ts:8:24)
+    at new UserRoutes (E:\New journy\fundoNotes\fundooNotes\src\routes\user.route.ts:7:28) {"date":"Thu Aug 01 2024 12:12:29 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":76936.937},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":123710,"external":2356302,"heapTotal":53698560,"heapUsed":28292608,"rss":80130048},"pid":1532,"uid":null,"version":"v20.10.0"},"stack":"Error: Unrecognized datatype for attribute \"user.dob\"\n    at E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\model.js:1046:15\n    at E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js:13469:38\n    at E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js:4967:15\n    at baseForOwn (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js:3032:24)\n    at Function.mapValues (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js:13468:7)\n    at Function.init (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\model.js:1042:28)\n    at exports.default (E:\\New journy\\fundoNotes\\fundooNotes\\src\\models\\user.ts:26:8)\n    at new UserService (E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\user.service.ts:7:22)\n    at new UserController (E:\\New journy\\fundoNotes\\fundooNotes\\src\\controllers\\user.controller.ts:8:24)\n    at new UserRoutes (E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\user.route.ts:7:28)","timestamp":"2024-08-01T06:42:29.218Z","trace":[{"column":15,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\model.js","function":null,"line":1046,"method":null,"native":false},{"column":38,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js","function":null,"line":13469,"method":null,"native":false},{"column":15,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js","function":null,"line":4967,"method":null,"native":false},{"column":24,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js","function":"baseForOwn","line":3032,"method":null,"native":false},{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js","function":"Function.mapValues","line":13468,"method":"mapValues","native":false},{"column":28,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\model.js","function":"Function.init","line":1042,"method":"init","native":false},{"column":8,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\models\\user.ts","function":"exports.default","line":26,"method":"default","native":false},{"column":22,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\user.service.ts","function":"new UserService","line":7,"method":null,"native":false},{"column":24,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\controllers\\user.controller.ts","function":"new UserController","line":8,"method":null,"native":false},{"column":28,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":7,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:42:34.279Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:42:34.443Z"}
+error: uncaughtException: Unrecognized datatype for attribute "user.dob"
+Error: Unrecognized datatype for attribute "user.dob"
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\model.js:1046:15
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\lodash\lodash.js:13469:38
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\lodash\lodash.js:4967:15
+    at baseForOwn (E:\New journy\fundoNotes\fundooNotes\node_modules\lodash\lodash.js:3032:24)
+    at Function.mapValues (E:\New journy\fundoNotes\fundooNotes\node_modules\lodash\lodash.js:13468:7)
+    at Function.init (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\model.js:1042:28)
+    at exports.default (E:\New journy\fundoNotes\fundooNotes\src\models\user.ts:26:8)
+    at new UserService (E:\New journy\fundoNotes\fundooNotes\src\services\user.service.ts:7:22)
+    at new UserController (E:\New journy\fundoNotes\fundooNotes\src\controllers\user.controller.ts:8:24)
+    at new UserRoutes (E:\New journy\fundoNotes\fundooNotes\src\routes\user.route.ts:7:28) {"date":"Thu Aug 01 2024 12:12:37 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":76945.484},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":123710,"external":2356302,"heapTotal":53436416,"heapUsed":28775560,"rss":80621568},"pid":13816,"uid":null,"version":"v20.10.0"},"stack":"Error: Unrecognized datatype for attribute \"user.dob\"\n    at E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\model.js:1046:15\n    at E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js:13469:38\n    at E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js:4967:15\n    at baseForOwn (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js:3032:24)\n    at Function.mapValues (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js:13468:7)\n    at Function.init (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\model.js:1042:28)\n    at exports.default (E:\\New journy\\fundoNotes\\fundooNotes\\src\\models\\user.ts:26:8)\n    at new UserService (E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\user.service.ts:7:22)\n    at new UserController (E:\\New journy\\fundoNotes\\fundooNotes\\src\\controllers\\user.controller.ts:8:24)\n    at new UserRoutes (E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\user.route.ts:7:28)","timestamp":"2024-08-01T06:42:37.771Z","trace":[{"column":15,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\model.js","function":null,"line":1046,"method":null,"native":false},{"column":38,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js","function":null,"line":13469,"method":null,"native":false},{"column":15,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js","function":null,"line":4967,"method":null,"native":false},{"column":24,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js","function":"baseForOwn","line":3032,"method":null,"native":false},{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\lodash\\lodash.js","function":"Function.mapValues","line":13468,"method":"mapValues","native":false},{"column":28,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\model.js","function":"Function.init","line":1042,"method":"init","native":false},{"column":8,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\models\\user.ts","function":"exports.default","line":26,"method":"default","native":false},{"column":22,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\user.service.ts","function":"new UserService","line":7,"method":null,"native":false},{"column":24,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\controllers\\user.controller.ts","function":"new UserController","line":8,"method":null,"native":false},{"column":28,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":7,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:42:42.842Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:42:43.034Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:46:02.935Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:46:03.120Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:50:13.082Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:50:13.297Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:50:15.729Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:50:15.925Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:50:17.433Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:50:17.617Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.insert (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T06:50:21.338Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:52:07.459Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:52:07.678Z"}
+error: uncaughtException: Validation error
+Error: 
+    at Query.run (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.createTable (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:229:12)
+    at Function.sync (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\model.js:1353:7)
+    at Sequelize.sync (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\sequelize.js:825:9) {"date":"Thu Aug 01 2024 12:22:07 GMT+0530 (India Standard Time)","error":{"errors":[{"instance":null,"message":"relname must be unique","origin":"DB","path":"relname","type":"unique violation","validatorArgs":[],"validatorKey":"not_unique","validatorName":null,"value":"users_id_seq"},{"instance":null,"message":"relnamespace must be unique","origin":"DB","path":"relnamespace","type":"unique violation","validatorArgs":[],"validatorKey":"not_unique","validatorName":null,"value":"2200"}],"fields":{"relname":"users_id_seq","relnamespace":"2200"},"name":"SequelizeUniqueConstraintError","original":{"code":"23505","constraint":"pg_class_relname_nsp_index","detail":"Key (relname, relnamespace)=(users_id_seq, 2200) already exists.","file":"nbtinsert.c","length":255,"line":"673","name":"error","routine":"_bt_check_unique","schema":"pg_catalog","severity":"ERROR","sql":"CREATE TABLE IF NOT EXISTS \"users\" (\"id\"  SERIAL , \"firstName\" VARCHAR(255) NOT NULL, \"lastName\" VARCHAR(255) NOT NULL, \"email\" VARCHAR(255) NOT NULL, \"password\" VARCHAR(255) NOT NULL, \"mobile\" VARCHAR(255) NOT NULL, \"gender\" VARCHAR(255) NOT NULL, \"dob\" DATE NOT NULL, PRIMARY KEY (\"id\"));","table":"pg_class"},"parent":{"code":"23505","constraint":"pg_class_relname_nsp_index","detail":"Key (relname, relnamespace)=(users_id_seq, 2200) already exists.","file":"nbtinsert.c","length":255,"line":"673","name":"error","routine":"_bt_check_unique","schema":"pg_catalog","severity":"ERROR","sql":"CREATE TABLE IF NOT EXISTS \"users\" (\"id\"  SERIAL , \"firstName\" VARCHAR(255) NOT NULL, \"lastName\" VARCHAR(255) NOT NULL, \"email\" VARCHAR(255) NOT NULL, \"password\" VARCHAR(255) NOT NULL, \"mobile\" VARCHAR(255) NOT NULL, \"gender\" VARCHAR(255) NOT NULL, \"dob\" DATE NOT NULL, PRIMARY KEY (\"id\"));","table":"pg_class"},"sql":"CREATE TABLE IF NOT EXISTS \"users\" (\"id\"  SERIAL , \"firstName\" VARCHAR(255) NOT NULL, \"lastName\" VARCHAR(255) NOT NULL, \"email\" VARCHAR(255) NOT NULL, \"password\" VARCHAR(255) NOT NULL, \"mobile\" VARCHAR(255) NOT NULL, \"gender\" VARCHAR(255) NOT NULL, \"dob\" DATE NOT NULL, PRIMARY KEY (\"id\"));"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":77515.625},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":86131,"external":2446498,"heapTotal":54497280,"heapUsed":33201368,"rss":85495808},"pid":13780,"uid":null,"version":"v20.10.0"},"stack":"Error: \n    at Query.run (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\dialects\\postgres\\query.js:76:25)\n    at E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\sequelize.js:650:28\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at PostgresQueryInterface.createTable (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\dialects\\abstract\\query-interface.js:229:12)\n    at Function.sync (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\model.js:1353:7)\n    at Sequelize.sync (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\sequelize.js:825:9)","timestamp":"2024-08-01T06:52:07.905Z","trace":[{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\dialects\\postgres\\query.js","function":"Query.run","line":76,"method":"run","native":false},{"column":28,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\sequelize.js","function":null,"line":650,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false},{"column":12,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\dialects\\abstract\\query-interface.js","function":"PostgresQueryInterface.createTable","line":229,"method":"createTable","native":false},{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\model.js","function":"Function.sync","line":1353,"method":"sync","native":false},{"column":9,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\sequelize\\src\\sequelize.js","function":"Sequelize.sync","line":825,"method":"sync","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:52:12.007Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:52:12.231Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:52:16.401Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:52:16.585Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:55:45.581Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:55:45.766Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:55:58.106Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:55:58.299Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:56:00.159Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:56:00.348Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:56:04.780Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:56:04.989Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:56:08.620Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:56:08.883Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:56:11.723Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:56:14.436Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:56:26.253Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:56:26.422Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:56:29.436Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:56:29.596Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:56:46.677Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:56:46.870Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:56:48.639Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:56:48.846Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:56:52.810Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:56:52.994Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:56:56.741Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:56:56.922Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:57:03.681Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:57:03.876Z"}
+error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as post] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:521:19)
+    at UserRoutes.routes (E:\New journy\fundoNotes\fundooNotes\src\routes\user.route.ts:21:17)
+    at new UserRoutes (E:\New journy\fundoNotes\fundooNotes\src\routes\user.route.ts:12:10)
+    at routes (E:\New journy\fundoNotes\fundooNotes\src\routes\index.ts:17:12)
+    at App.initializeRoutes (E:\New journy\fundoNotes\fundooNotes\src\index.ts:45:52)
+    at new App (E:\New journy\fundoNotes\fundooNotes\src\index.ts:31:10)
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\index.ts:67:13)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 12:27:17 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":77825.218},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":118066,"external":2350636,"heapTotal":52805632,"heapUsed":25761472,"rss":78188544},"pid":3020,"uid":null,"version":"v20.10.0"},"stack":"Error: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as post] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\user.route.ts:21:17)\n    at new UserRoutes (E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\user.route.ts:12:10)\n    at routes (E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\index.ts:17:12)\n    at App.initializeRoutes (E:\\New journy\\fundoNotes\\fundooNotes\\src\\index.ts:45:52)\n    at new App (E:\\New journy\\fundoNotes\\fundooNotes\\src\\index.ts:31:10)\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\index.ts:67:13)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T06:57:17.513Z","trace":[{"column":15,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":216,"method":"<computed> [as post]","native":false},{"column":19,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":521,"method":"<computed> [as post]","native":false},{"column":17,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":21,"method":"routes","native":false},{"column":10,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":12,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\index.ts","function":"routes","line":17,"method":null,"native":false},{"column":52,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\index.ts","function":"App.initializeRoutes","line":45,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\index.ts","function":"new App","line":31,"method":null,"native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\index.ts","function":null,"line":67,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as post] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:521:19)
+    at UserRoutes.routes (E:\New journy\fundoNotes\fundooNotes\src\routes\user.route.ts:21:17)
+    at new UserRoutes (E:\New journy\fundoNotes\fundooNotes\src\routes\user.route.ts:12:10)
+    at routes (E:\New journy\fundoNotes\fundooNotes\src\routes\index.ts:17:12)
+    at App.initializeRoutes (E:\New journy\fundoNotes\fundooNotes\src\index.ts:45:52)
+    at new App (E:\New journy\fundoNotes\fundooNotes\src\index.ts:31:10)
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\index.ts:67:13)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 12:27:21 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":77829.671},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":118066,"external":2350636,"heapTotal":52805632,"heapUsed":25548208,"rss":77946880},"pid":5792,"uid":null,"version":"v20.10.0"},"stack":"Error: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as post] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\user.route.ts:21:17)\n    at new UserRoutes (E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\user.route.ts:12:10)\n    at routes (E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\index.ts:17:12)\n    at App.initializeRoutes (E:\\New journy\\fundoNotes\\fundooNotes\\src\\index.ts:45:52)\n    at new App (E:\\New journy\\fundoNotes\\fundooNotes\\src\\index.ts:31:10)\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\index.ts:67:13)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T06:57:21.961Z","trace":[{"column":15,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":216,"method":"<computed> [as post]","native":false},{"column":19,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":521,"method":"<computed> [as post]","native":false},{"column":17,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":21,"method":"routes","native":false},{"column":10,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":12,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\index.ts","function":"routes","line":17,"method":null,"native":false},{"column":52,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\index.ts","function":"App.initializeRoutes","line":45,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\index.ts","function":"new App","line":31,"method":null,"native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\index.ts","function":null,"line":67,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:57:49.906Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:57:50.076Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:57:55.903Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:57:56.112Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:58:15.892Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:58:16.071Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:59:22.342Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:59:22.548Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:59:25.587Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T06:59:25.758Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T07:09:12.278Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T07:09:12.608Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T07:09:42.225Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T07:09:42.467Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T07:09:45.387Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T07:09:45.555Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T07:11:25.292Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T07:11:25.665Z"}
+error: 
+    status - 500 
+    message - Error: The argument passed to findOne must be an options object, use findByPk if you wish to pass a single primary key value
+    at Function.findOne (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\model.js:1972:13)
+    at UserService.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\user.service.ts:37:34)
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\services\user.service.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\services\user.service.ts:27:12)
+    at UserService.login (E:\New journy\fundoNotes\fundooNotes\src\services\user.service.ts:36:43)
+    at UserController.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\controllers\user.controller.ts:45:43)
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\controllers\user.controller.ts:8:71 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T07:11:30.666Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T07:12:08.199Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T07:12:08.378Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T07:12:13.800Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T07:12:14.042Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T07:12:23.310Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T07:12:23.494Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T07:12:26.553Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T07:12:26.886Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T07:12:30.208Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T07:12:30.384Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T07:12:46.833Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T07:12:47.050Z"}
+error: 
+    status - 500 
+    message - SequelizeValidationError: notNull Violation: user.firstName cannot be null,
+notNull Violation: user.lastName cannot be null,
+notNull Violation: user.mobile cannot be null,
+notNull Violation: user.gender cannot be null,
+notNull Violation: user.dob cannot be null
+    at InstanceValidator._validate (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\instance-validator.js:78:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at InstanceValidator._validateAndRunHooks (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\instance-validator.js:111:7)
+    at InstanceValidator.validate (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\instance-validator.js:93:12)
+    at User.save (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\model.js:4077:7)
+    at Function.create (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T07:38:39.325Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:28:21.876Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:28:22.185Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:44:05.445Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:44:05.762Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:44:11.942Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:44:12.174Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:44:21.346Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:44:21.574Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:44:28.260Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:44:28.486Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:44:30.788Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:44:30.979Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:44:42.988Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:44:43.246Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:46:32.812Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:46:33.013Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:48:37.877Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:48:38.111Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:48:58.533Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:48:58.775Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:49:00.530Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:49:01.723Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:49:02.050Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:49:05.055Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:49:05.251Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:49:15.238Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:49:15.447Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:49:23.761Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:49:24.023Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:49:28.342Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:49:28.625Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:49:32.995Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:49:33.262Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:49:36.687Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:49:36.922Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:49:53.432Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:49:53.628Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:50:48.467Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:50:48.737Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:50:51.020Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:50:51.300Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:50:57.127Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:50:57.376Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:51:03.228Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:51:03.530Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:51:07.543Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:51:07.801Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:51:39.591Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:51:39.826Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:51:44.691Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:51:44.916Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:51:48.536Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:51:48.924Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:51:51.004Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:51:52.307Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:51:52.490Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:51:58.399Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:51:58.748Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:52:02.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:52:03.635Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:52:03.868Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:52:13.465Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:52:13.728Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:53:28.447Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:53:28.804Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:53:34.488Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:53:34.667Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:53:43.399Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:53:43.611Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:53:55.291Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:53:55.536Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:54:02.640Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:54:03.007Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:54:05.170Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:54:05.673Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:58:53.385Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:58:53.610Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:58:56.224Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:58:56.472Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:59:14.025Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:59:14.307Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:59:20.455Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:59:20.681Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:59:32.341Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:59:32.594Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:59:50.381Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:59:50.613Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:59:54.744Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T11:59:54.952Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T12:01:55.629Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T12:01:55.840Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T12:01:59.979Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T12:02:00.266Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T12:02:03.774Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T12:02:04.014Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T12:08:12.811Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T12:08:13.024Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T12:09:33.749Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T12:09:34.064Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-01T12:09:35.708Z"}
+info: Connected to the database. {"timestamp":"2024-08-01T12:09:35.925Z"}
