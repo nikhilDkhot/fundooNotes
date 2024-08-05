@@ -8,6 +8,7 @@ module.exports = {
     host: process.env.HOST,
     port: process.env.PORT,
     dialect: process.env.DIALECT
+    
   },
   test: {
     username: process.env.USERNAME_TEST,

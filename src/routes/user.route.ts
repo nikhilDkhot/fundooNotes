@@ -15,7 +15,7 @@ class UserRoutes {
   private routes = () => {
 
     //route to get all users
-    this.router.get('', this.UserController.getAllUsers);
+    //this.router.get('', this.UserController.getAllUsers);
 
     //route to create a new user
     this.router.post(
@@ -29,10 +29,10 @@ class UserRoutes {
     this.UserController.login);
 
     //route to update a user by their id
-    this.router.put('/:id', this.UserController.updateUser);
+    //this.router.put('/:id', this.UserController.updateUser);
 
     //route to delete a user by their id
-    this.router.delete('/:id', this.UserController.deleteUser);
+    //this.router.delete('/:id', this.UserController.deleteUser);
   };
 
   public getRoutes = (): IRouter => {

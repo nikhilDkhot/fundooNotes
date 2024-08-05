@@ -24,6 +24,7 @@ class UserController {
         code: HttpStatus.OK,
         data: data,
         message: 'All users fetched successfully'
+
       });
     } catch (error) {
       next(error);
@@ -46,7 +47,8 @@ class UserController {
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data.data,
-        message: data.message
+        message: data.message,
+        token : data.token
       });
     } catch (error) {
       next(error);
