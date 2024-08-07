@@ -59,9 +59,11 @@ import bcrypt from 'bcrypt';
 import user from '../models/user';
 import { log } from 'winston';
 import jwt  from 'jsonwebtoken';
+import config from '../config/config';
 
 const saltRound: number = 10;
-const secretKey = process.env.SECRET_KEY
+const secretKey = config.development.secret
+//const secretKey = process.env.SECRET_KEY
 
 class UserService {
   private User = user(sequelize, DataTypes);
@@ -123,6 +125,17 @@ class UserService {
   public deleteUser = async (id) => {
     await this.User.destroy({ where: { id: id } });
     return '';
+  };
+
+  public getUser = async (id) => {
+    try {
+      const data = await this.User.findByPk(id);
+      return data.dataValues;
+    }
+    catch (error) {
+      throw new Error('User not found');
+    }
+
   };
 }
 

@@ -37,6 +37,8 @@ const sequelize = new Sequelize(DATABASE, USERNAME, PASSWORD, {
 sequelize
   .authenticate()
   .then(() => {
+    console.log("data base madhe ahe");
+    
     logger.info('Connected to the database.');
   })
   .catch((error) => {
@@ -44,6 +46,7 @@ sequelize
   });
 
 //sequelize.sync({force:true});
+console.log("hello");
 
 sequelize.sync();
 

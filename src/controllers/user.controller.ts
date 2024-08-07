@@ -123,6 +123,31 @@ class UserController {
       next(error);
     }
   };
+
+  public getUser = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ): Promise<any> => {
+    try {
+      // const token = await req.cookies.jwt;
+      // if (!token) {
+      //   return res.status(HttpStatus.UNAUTHORIZED).json({
+      //     code: HttpStatus.UNAUTHORIZED,
+      //     message: 'No token provided'
+      //   });
+      // };
+      
+      const data = await this.UserService.getUser(req.params.id);
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: 'User fetched successfully'
+      });
+    } catch (error) {
+      next(error);
+    }
+  };
 }
 
 export default UserController;

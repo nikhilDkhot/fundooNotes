@@ -28,8 +28,10 @@ class UserRoutes {
     this.router.post('/login', //userAuth, 
     this.UserController.login);
 
+    this.router.get('/getuser/:id', userAuth,  this.UserController.getUser);
+
     //route to update a user by their id
-    //this.router.put('/:id', this.UserController.updateUser);
+    this.router.put('/:id', this.UserController.updateUser);
 
     //route to delete a user by their id
     //this.router.delete('/:id', this.UserController.deleteUser);
