@@ -148,6 +148,70 @@ class UserController {
       next(error);
     }
   };
+
+  /**
+   * Controller to update a user
+   * @param  {object} Request - request object
+   * @param {object} Response - response object
+   * @param {Function} NextFunction
+   */
+public forgetUser = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+): Promise<any> => {
+  try {
+    const data = await this.UserService.forgetUser(req.body);
+    res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      data: data,
+      message: 'User updated successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+
+public reset = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+): Promise<any> => {
+  try {
+    const data = await this.UserService.reset(req.body.email, req.body.password);
+    res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      data: data,
+      message: 'User updated successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+
+public updateUserPassword = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+): Promise<any> => {
+  try {
+
+    console.log("***********************");
+
+    console.log(req.body);
+    
+    
+    const data = await this.UserService.updateUser(req.body.id, req.body);
+    res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      data: data,
+      message: 'User updated successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+
 }
 
 export default UserController;

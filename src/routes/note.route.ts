@@ -26,7 +26,7 @@ class NoteRoutes {
 
     this.router.post('/trash/:id', noteAuth, this.NotesController.trashNote);
 
-    this.router.delete('/delete/:id', noteAuth, this.NotesController.deleteNote);
+    this.router.post('/delete/:id', noteAuth, this.NotesController.deleteNote);
 
   };
 

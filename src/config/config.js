@@ -8,7 +8,8 @@ module.exports = {
     host: process.env.HOST,
     port: process.env.PORT,
     dialect: process.env.DIALECT,
-    secret: process.env.SECRET_KEY
+    secret: process.env.SECRET_KEY,
+    forget_secreat: process.env.FORGET_SECREAT
     
   },
   test: {
@@ -18,7 +19,8 @@ module.exports = {
     host: process.env.HOST_TEST,
     port: process.env.PORT_TEST,
     dialect: process.env.DIALECT_TEST,
-    secret: process.env.SECRET_KEY
+    secret: process.env.SECRET_KEY,
+    forget_secreat: process.env.FORGET_SECREAT
   },
   production: {
     username: process.env.USERNAME,
@@ -27,6 +29,7 @@ module.exports = {
     host: process.env.HOST,
     port: process.env.PORT,
     dialect: process.env.DIALECT,
-    secret: process.env.SECRET_KEY
+    secret: process.env.SECRET_KEY,
+    forget_secreat: process.env.FORGET_SECREAT
   }
 };

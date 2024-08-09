@@ -231,6 +231,118 @@
           }
         }
       },
+      "/users/forget": {
+        "post": {
+          "summary": "User forgot password",
+          "operationId": "put user email",
+          "description": "user will put email",
+          "tags": [
+            "User"
+          ],
+          "requestBody": {
+            "description": "email  of the user",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "email": {
+                      "type": "string",
+                      "description": "The user's email"
+                    }
+                  },
+                  "required": [
+                    "email"
+                  ]
+                }
+              }
+            },
+            "required": true
+          },
+          "responses": {
+            "200": {
+              "description": "token has been generated",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "code": {
+                        "type": "integer",
+                        "example": 200
+                      },
+                      "data": {
+                        "type": "string",
+                        "example": "xyz@gmail.com token generated"
+                      },
+                      "message": {
+                        "type": "string",
+                        "example": "User fetched successfully"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/users/reset": {
+        "post": {
+          "summary": "User reset password",
+          "operationId": "put user password",
+          "description": "user will put password",
+          "tags": [
+            "User"
+          ],
+          "requestBody": {
+            "description": "reset password",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "password": {
+                      "type": "string",
+                      "description": "reset password"
+                    }
+                  },
+                  "required": [
+                    "password"
+                  ]
+                }
+              }
+            },
+            "required": true
+          },
+          "responses": {
+            "200": {
+              "description": "password has be reset",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "code": {
+                        "type": "integer",
+                        "example": 200
+                      },
+                      "data": {
+                        "type": "string",
+                        "example": "xyz@gmail.com password has been reset"
+                      },
+                      "message": {
+                        "type": "string",
+                        "example": "User fetched successfully"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
       "/notes/create": {
         "post": {
           "security": [

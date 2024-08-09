@@ -3,6 +3,7 @@
 'use strict';
 import { Model } from 'sequelize';
 import { IUser } from '../interfaces/user.interface';
+const bcrypt = require('bcrypt');
 
 export default (sequelize, DataTypes) => {
   class User extends Model<IUser> implements IUser {
@@ -62,7 +63,14 @@ export default (sequelize, DataTypes) => {
     {
       sequelize,
       modelName: 'user',
-      timestamps: false 
+      timestamps: false,
+      hooks: {
+        beforeCreate: async (user: User, options: any) => {
+          if (user.password) {
+            user.password = await bcrypt.hash(user.password, 10);
+          }
+        }
+      } 
     }
   );
   return User;

@@ -60,6 +60,8 @@ import user from '../models/user';
 import { log } from 'winston';
 import jwt  from 'jsonwebtoken';
 import config from '../config/config';
+import  utils  from '../utils/user.util';
+
 
 const saltRound: number = 10;
 const secretKey = config.development.secret
@@ -67,6 +69,7 @@ const secretKey = config.development.secret
 
 class UserService {
   private User = user(sequelize, DataTypes);
+  private Utils = new utils();
 
   //Register a new user
 
@@ -115,6 +118,10 @@ class UserService {
 
   //update a user
   public updateUser = async (id, body) => {
+
+    const hashedPassword = await bcrypt.hash(body.password, saltRound);
+      body.password = hashedPassword;
+    
     await this.User.update(body, {
       where: { id: id }
     });
@@ -137,6 +144,28 @@ class UserService {
     }
 
   };
+
+  public forgetUser = async (email) => {
+    const data = await this.User.findOne({ where: email });
+   // const token = await this.Utils.forgetUser(data.email);
+    const token = await this.Utils.forgetUser(data.email);
+    return token;
+  }
+
+  public reset = async (token, password) => {
+    const email = await this.Utils.forgetUserVerify(token);
+    if (email) {
+
+      const hashedPassword = await bcrypt.hash(password, saltRound);
+      password = hashedPassword;
+      const data = await this.User.update({password:password}, { where: { email : email }, individualHooks: true });
+      return data;
+    }
+    return 'Invalid Token';
+  } 
+
+
+
 }
 
 export default UserService; 

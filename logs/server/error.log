@@ -641,3 +641,177 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2024-08-07T11:47:16.087Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/allNotes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-08-08T09:51:00.411Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.bulkUpdate (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:930:12)
+    at Function.update (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\model.js:3352:28) 
+    url - /api/v1/users/changePass 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-08-08T11:11:05.872Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.bulkUpdate (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:930:12)
+    at Function.update (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\model.js:3352:28) 
+    url - /api/v1/users/changePass 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-08-08T11:16:15.884Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.bulkUpdate (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:930:12)
+    at Function.update (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\model.js:3352:28) 
+    url - /api/v1/users/changePass 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-08T11:16:54.609Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.bulkUpdate (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:930:12)
+    at Function.update (E:\New journy\fundoNotes\fundooNotes\node_modules\sequelize\src\model.js:3352:28) 
+    url - /api/v1/users/changePass 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-08T11:23:23.558Z"}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/user.ts[0m:[93m73[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m73[0m   );
+[7m  [0m [91m  ~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/models/user.ts[0m:[93m73[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m73[0m   );
+[7m  [0m [91m  ~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\models\user.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-863513294001947.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-863513294001947.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-863513294001947.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Thu Aug 08 2024 17:01:50 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":10655.484},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":107075,"external":2342444,"heapTotal":52543488,"heapUsed":19576032,"rss":65261568},"pid":13440,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/models/user.ts\u001b[0m:\u001b[93m73\u001b[0m:\u001b[93m3\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m73\u001b[0m   );\r\n\u001b[7m  \u001b[0m \u001b[91m  ~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\models\\user.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-863513294001947.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-863513294001947.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-863513294001947.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-08T11:31:50.767Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\models\\user.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-863513294001947.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-863513294001947.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-863513294001947.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/user.ts[0m:[93m74[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m74[0m   );
+[7m  [0m [91m  ~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/models/user.ts[0m:[93m74[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m74[0m   );
+[7m  [0m [91m  ~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\models\user.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-863513294001947.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-863513294001947.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-863513294001947.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Thu Aug 08 2024 17:01:54 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":10659.484},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":107075,"external":2342444,"heapTotal":52281344,"heapUsed":19255968,"rss":65544192},"pid":4208,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/models/user.ts\u001b[0m:\u001b[93m74\u001b[0m:\u001b[93m3\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m74\u001b[0m   );\r\n\u001b[7m  \u001b[0m \u001b[91m  ~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\models\\user.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-863513294001947.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-863513294001947.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-863513294001947.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-08T11:31:54.780Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\models\\user.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-863513294001947.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-863513294001947.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-863513294001947.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+error: uncaughtException: E:\New journy\fundoNotes\fundooNotes\src\doc\swagger-output.json: Expected double-quoted property name in JSON at position 7174
+SyntaxError: E:\New journy\fundoNotes\fundooNotes\src\doc\swagger-output.json: Expected double-quoted property name in JSON at position 7174
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1453:39)
+    at Object.nodeDevHook [as .json] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\index.ts:14:25)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 08 2024 17:36:58 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":12763.625},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":124342,"external":2346600,"heapTotal":53067776,"heapUsed":29006208,"rss":73457664},"pid":11016,"uid":null,"version":"v20.10.0"},"stack":"SyntaxError: E:\\New journy\\fundoNotes\\fundooNotes\\src\\doc\\swagger-output.json: Expected double-quoted property name in JSON at position 7174\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1453:39)\n    at Object.nodeDevHook [as .json] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\index.ts:14:25)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-08T12:06:58.917Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":39,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1453,"method":".json","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1235,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":176,"method":null,"native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\index.ts","function":null,"line":14,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: E:\New journy\fundoNotes\fundooNotes\src\doc\swagger-output.json: Expected double-quoted property name in JSON at position 9075
+SyntaxError: E:\New journy\fundoNotes\fundooNotes\src\doc\swagger-output.json: Expected double-quoted property name in JSON at position 9075
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1453:39)
+    at Object.nodeDevHook [as .json] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\index.ts:14:25)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 08 2024 17:37:03 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":12767.828},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":124342,"external":2346600,"heapTotal":53067776,"heapUsed":28990760,"rss":73211904},"pid":11216,"uid":null,"version":"v20.10.0"},"stack":"SyntaxError: E:\\New journy\\fundoNotes\\fundooNotes\\src\\doc\\swagger-output.json: Expected double-quoted property name in JSON at position 9075\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1453:39)\n    at Object.nodeDevHook [as .json] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)\n    at Module.require (node:internal/modules/cjs/loader:1235:19)\n    at require (node:internal/modules/helpers:176:18)\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\index.ts:14:25)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-08T12:07:03.117Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":39,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1453,"method":".json","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1235,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":176,"method":null,"native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\index.ts","function":null,"line":14,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:56:35
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:4:12)
+    at noteAuth (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:46:20)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/allNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-08-08T12:50:36.028Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:56:35
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:4:12)
+    at noteAuth (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:46:20)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-08T12:55:35.581Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Bad control character in string literal in JSON at position 114
+    at JSON.parse (<anonymous>)
+    at parse (E:\New journy\fundoNotes\fundooNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\New journy\fundoNotes\fundooNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\New journy\fundoNotes\fundooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\New journy\fundoNotes\fundooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-08T13:02:05.518Z"}
