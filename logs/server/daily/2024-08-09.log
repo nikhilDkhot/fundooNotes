@@ -1,0 +1,57 @@
+info: Connected to the database. {"timestamp":"2024-08-09T09:10:28.434Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T09:25:17.379Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T09:32:06.097Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T09:37:08.775Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T09:37:47.671Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T09:59:27.065Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T10:15:58.148Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T10:18:22.637Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T10:32:31.725Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T10:59:28.887Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T11:00:59.968Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T11:02:34.452Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-09T12:20:46.600Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:20:46.900Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:29:31.321Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-09T12:37:58.839Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:37:59.044Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-09T12:38:00.581Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:38:00.910Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-09T12:38:03.650Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:38:03.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-09T12:38:06.394Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:38:06.568Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-09T12:38:10.495Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-09T12:38:12.258Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:38:12.477Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-09T12:38:14.618Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:38:14.852Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-09T12:38:17.170Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:38:17.404Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-09T12:38:22.061Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:38:22.257Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-09T12:38:23.891Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:38:24.060Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:38:45.953Z"}
+error: 
+    status - 500 
+    message - Error: Error creating notes : notNull Violation: notes.createdBy cannot be null
+    at NotesService.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:18:19)
+    at Generator.throw (<anonymous>)
+    at rejected (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:29:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T12:39:12.784Z"}
+error: 
+    status - 500 
+    message - Error: Error creating notes : notNull Violation: notes.createdBy cannot be null
+    at NotesService.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:18:19)
+    at Generator.throw (<anonymous>)
+    at rejected (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:29:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T12:39:23.162Z"}

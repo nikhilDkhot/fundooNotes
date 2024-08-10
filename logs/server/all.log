@@ -1404,3 +1404,659 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-08T1
 info: Connected to the database. {"timestamp":"2024-08-08T13:07:01.099Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-08T13:07:02.747Z"}
 info: Connected to the database. {"timestamp":"2024-08-08T13:07:02.906Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T09:10:28.434Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T09:25:17.379Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T09:32:06.097Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T09:37:08.775Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T09:37:47.671Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T09:59:27.065Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T10:15:58.148Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T10:18:22.637Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T10:32:31.725Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T10:59:28.887Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T11:00:59.968Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T11:02:34.452Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-09T12:20:46.600Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:20:46.900Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:29:31.321Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-09T12:37:58.839Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:37:59.044Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-09T12:38:00.581Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:38:00.910Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-09T12:38:03.650Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:38:03.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-09T12:38:06.394Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:38:06.568Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-09T12:38:10.495Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-09T12:38:12.258Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:38:12.477Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-09T12:38:14.618Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:38:14.852Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-09T12:38:17.170Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:38:17.404Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-09T12:38:22.061Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:38:22.257Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-09T12:38:23.891Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:38:24.060Z"}
+info: Connected to the database. {"timestamp":"2024-08-09T12:38:45.953Z"}
+error: 
+    status - 500 
+    message - Error: Error creating notes : notNull Violation: notes.createdBy cannot be null
+    at NotesService.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:18:19)
+    at Generator.throw (<anonymous>)
+    at rejected (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:29:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T12:39:12.784Z"}
+error: 
+    status - 500 
+    message - Error: Error creating notes : notNull Violation: notes.createdBy cannot be null
+    at NotesService.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:18:19)
+    at Generator.throw (<anonymous>)
+    at rejected (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:29:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-09T12:39:23.162Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T06:07:36.249Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T06:09:51.554Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T06:09:51.717Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T06:13:05.900Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T06:19:46.820Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T06:20:25.756Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T06:21:17.205Z"}
+error: 
+    status - 500 
+    message - Error: error fetching all notes : WHERE parameter "createdBy" has invalid "undefined" value
+    at NotesService.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:62:19)
+    at Generator.throw (<anonymous>)
+    at rejected (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:29:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/allNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-08-10T06:24:21.440Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T06:27:24.415Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T06:27:24.581Z"}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/notes.controller.ts[0m:[93m68[0m:[93m62[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m68[0m             const data = await this.NoteService.getAllNotes(());
+[7m  [0m [91m                                                             ~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/notes.controller.ts[0m:[93m68[0m:[93m62[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m68[0m             const data = await this.NoteService.getAllNotes(());
+[7m  [0m [91m                                                             ~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\controllers\notes.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8036008415949174.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8036008415949174.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8036008415949174.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Sat Aug 10 2024 11:57:27 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":165192.046},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":118633,"external":2342444,"heapTotal":53067776,"heapUsed":28138416,"rss":72024064},"pid":8552,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/controllers/notes.controller.ts\u001b[0m:\u001b[93m68\u001b[0m:\u001b[93m62\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1109: \u001b[0mExpression expected.\r\n\r\n\u001b[7m68\u001b[0m             const data = await this.NoteService.getAllNotes(());\r\n\u001b[7m  \u001b[0m \u001b[91m                                                             ~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\controllers\\notes.controller.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8036008415949174.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8036008415949174.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8036008415949174.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-10T06:27:27.331Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\controllers\\notes.controller.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8036008415949174.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8036008415949174.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8036008415949174.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T06:27:32.247Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T06:27:32.429Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T06:27:35.781Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T06:27:35.948Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T06:27:40.550Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T06:27:40.835Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T07:14:34.237Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T07:21:19.643Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T07:29:47.289Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:01:56.781Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:01:57.223Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:04:48.437Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:05:33.036Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:07:31.242Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:17:49.520Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:56:35
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:4:12)
+    at noteAuth (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:46:20)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/update/10 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-10T09:22:08.663Z"}
+error: uncaughtException: Identifier 'rowsUpdated' has already been declared
+E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:61
+                const [rowsUpdated, [updatedNote]] = yield this.Notes.update(body, {
+                       ^
+
+SyntaxError: Identifier 'rowsUpdated' has already been declared
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32) {"date":"Sat Aug 10 2024 14:58:03 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":8816.453},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":118653,"external":2342444,"heapTotal":53067776,"heapUsed":28759096,"rss":72962048},"pid":14360,"uid":null,"version":"v20.10.0"},"stack":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts:61\n                const [rowsUpdated, [updatedNote]] = yield this.Notes.update(body, {\n                       ^\n\nSyntaxError: Identifier 'rowsUpdated' has already been declared\n    at internalCompileFunction (node:internal/vm:77:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1288:20)\n    at Module._compile (node:internal/modules/cjs/loader:1340:27)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)","timestamp":"2024-08-10T09:28:03.739Z","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":77,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1288,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1340,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:28:11.950Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:28:12.164Z"}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m34[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m34[0m         });
+[7m  [0m [91m          ~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m34[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m34[0m         });
+[7m  [0m [91m          ~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Sat Aug 10 2024 14:58:16 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":8828.937},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":118886,"external":2342444,"heapTotal":53329920,"heapUsed":27276648,"rss":71548928},"pid":8368,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/services/notes.service.ts\u001b[0m:\u001b[93m34\u001b[0m:\u001b[93m11\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m34\u001b[0m         });\r\n\u001b[7m  \u001b[0m \u001b[91m          ~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-10T09:28:16.228Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m34[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m34[0m         });
+[7m  [0m [91m          ~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m34[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m34[0m         });
+[7m  [0m [91m          ~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Sat Aug 10 2024 14:58:20 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":8833.187},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":118886,"external":2342444,"heapTotal":53067776,"heapUsed":28649632,"rss":72667136},"pid":13364,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/services/notes.service.ts\u001b[0m:\u001b[93m34\u001b[0m:\u001b[93m11\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m34\u001b[0m         });\r\n\u001b[7m  \u001b[0m \u001b[91m          ~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-10T09:28:20.472Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m34[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m34[0m         });
+[7m  [0m [91m          ~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m34[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m34[0m         });
+[7m  [0m [91m          ~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Sat Aug 10 2024 14:58:26 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":8839.046},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":118886,"external":2342444,"heapTotal":53329920,"heapUsed":27098088,"rss":71405568},"pid":10904,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/services/notes.service.ts\u001b[0m:\u001b[93m34\u001b[0m:\u001b[93m11\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m34\u001b[0m         });\r\n\u001b[7m  \u001b[0m \u001b[91m          ~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-10T09:28:26.328Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m34[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m34[0m         });
+[7m  [0m [91m          ~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m34[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m34[0m         });
+[7m  [0m [91m          ~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Sat Aug 10 2024 14:58:31 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":8843.734},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":118886,"external":2342444,"heapTotal":53854208,"heapUsed":26186672,"rss":70979584},"pid":11872,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/services/notes.service.ts\u001b[0m:\u001b[93m34\u001b[0m:\u001b[93m11\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m34\u001b[0m         });\r\n\u001b[7m  \u001b[0m \u001b[91m          ~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-10T09:28:31.022Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:28:35.778Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:28:35.937Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:28:47.092Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:28:47.280Z"}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m35[0m:[93m27[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m35[0m         if (rowsUpdated ==) {
+[7m  [0m [91m                          ~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m35[0m:[93m27[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m35[0m         if (rowsUpdated ==) {
+[7m  [0m [91m                          ~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Sat Aug 10 2024 15:01:13 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":9006.5},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":118927,"external":2342444,"heapTotal":53329920,"heapUsed":28196352,"rss":72474624},"pid":16300,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/services/notes.service.ts\u001b[0m:\u001b[93m35\u001b[0m:\u001b[93m27\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1109: \u001b[0mExpression expected.\r\n\r\n\u001b[7m35\u001b[0m         if (rowsUpdated ==) {\r\n\u001b[7m  \u001b[0m \u001b[91m                          ~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-10T09:31:13.793Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:31:19.112Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:31:19.348Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:31:34.673Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:31:34.865Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:31:39.440Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:31:39.626Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:31:56.731Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:33:40.905Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:34:19.237Z"}
+error: 
+    status - 500 
+    message - Error: Error updating note with ID 10: No note found with ID 10 to update
+    at NotesService.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:40:15)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/update/10 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-10T09:34:29.868Z"}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m32[0m:[93m25[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m           where: { id : },
+[7m  [0m [91m                        ~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m32[0m:[93m25[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m32[0m           where: { id : },
+[7m  [0m [91m                        ~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Sat Aug 10 2024 15:07:51 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":9404.656},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":118922,"external":2342444,"heapTotal":53067776,"heapUsed":28015440,"rss":72183808},"pid":356,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/services/notes.service.ts\u001b[0m:\u001b[93m32\u001b[0m:\u001b[93m25\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1109: \u001b[0mExpression expected.\r\n\r\n\u001b[7m32\u001b[0m           where: { id : },\r\n\u001b[7m  \u001b[0m \u001b[91m                        ~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-10T09:37:51.950Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:37:56.720Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:37:56.930Z"}
+error: 
+    status - 500 
+    message - Error: Error updating note with ID 10: No note found with ID 10 to update
+    at NotesService.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:40:15)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/update/10 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-10T09:38:28.466Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:40:50.740Z"}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m31[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m31[0m         const rowsUpdated] = await this.Notes.update(body, {
+[7m  [0m [91m                         ~[0m
+[96msrc/services/notes.service.ts[0m:[93m31[0m:[93m28[0m - [91merror[0m[90m TS1134: [0mVariable declaration expected.
+
+[7m31[0m         const rowsUpdated] = await this.Notes.update(body, {
+[7m  [0m [91m                           ~[0m
+[96msrc/services/notes.service.ts[0m:[93m31[0m:[93m36[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m31[0m         const rowsUpdated] = await this.Notes.update(body, {
+[7m  [0m [91m                                   ~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m31[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m31[0m         const rowsUpdated] = await this.Notes.update(body, {
+[7m  [0m [91m                         ~[0m
+[96msrc/services/notes.service.ts[0m:[93m31[0m:[93m28[0m - [91merror[0m[90m TS1134: [0mVariable declaration expected.
+
+[7m31[0m         const rowsUpdated] = await this.Notes.update(body, {
+[7m  [0m [91m                           ~[0m
+[96msrc/services/notes.service.ts[0m:[93m31[0m:[93m36[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m31[0m         const rowsUpdated] = await this.Notes.update(body, {
+[7m  [0m [91m                                   ~~~~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Sat Aug 10 2024 15:11:17 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":9610.453},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":119628,"external":2342444,"heapTotal":53067776,"heapUsed":28386704,"rss":72810496},"pid":6724,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/services/notes.service.ts\u001b[0m:\u001b[93m31\u001b[0m:\u001b[93m26\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m31\u001b[0m         const rowsUpdated] = await this.Notes.update(body, {\r\n\u001b[7m  \u001b[0m \u001b[91m                         ~\u001b[0m\r\n\u001b[96msrc/services/notes.service.ts\u001b[0m:\u001b[93m31\u001b[0m:\u001b[93m28\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1134: \u001b[0mVariable declaration expected.\r\n\r\n\u001b[7m31\u001b[0m         const rowsUpdated] = await this.Notes.update(body, {\r\n\u001b[7m  \u001b[0m \u001b[91m                           ~\u001b[0m\r\n\u001b[96msrc/services/notes.service.ts\u001b[0m:\u001b[93m31\u001b[0m:\u001b[93m36\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m31\u001b[0m         const rowsUpdated] = await this.Notes.update(body, {\r\n\u001b[7m  \u001b[0m \u001b[91m                                   ~~~~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-10T09:41:17.738Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:41:21.967Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:41:22.115Z"}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m31[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m31[0m         const rowsUpdated] = await this.Notes.update(body, {
+[7m  [0m [91m                         ~[0m
+[96msrc/services/notes.service.ts[0m:[93m31[0m:[93m28[0m - [91merror[0m[90m TS1134: [0mVariable declaration expected.
+
+[7m31[0m         const rowsUpdated] = await this.Notes.update(body, {
+[7m  [0m [91m                           ~[0m
+[96msrc/services/notes.service.ts[0m:[93m31[0m:[93m36[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m31[0m         const rowsUpdated] = await this.Notes.update(body, {
+[7m  [0m [91m                                   ~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m31[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m31[0m         const rowsUpdated] = await this.Notes.update(body, {
+[7m  [0m [91m                         ~[0m
+[96msrc/services/notes.service.ts[0m:[93m31[0m:[93m28[0m - [91merror[0m[90m TS1134: [0mVariable declaration expected.
+
+[7m31[0m         const rowsUpdated] = await this.Notes.update(body, {
+[7m  [0m [91m                           ~[0m
+[96msrc/services/notes.service.ts[0m:[93m31[0m:[93m36[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m31[0m         const rowsUpdated] = await this.Notes.update(body, {
+[7m  [0m [91m                                   ~~~~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Sat Aug 10 2024 15:11:42 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":9635.265},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":119628,"external":2342444,"heapTotal":53329920,"heapUsed":28371960,"rss":72331264},"pid":13780,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/services/notes.service.ts\u001b[0m:\u001b[93m31\u001b[0m:\u001b[93m26\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m31\u001b[0m         const rowsUpdated] = await this.Notes.update(body, {\r\n\u001b[7m  \u001b[0m \u001b[91m                         ~\u001b[0m\r\n\u001b[96msrc/services/notes.service.ts\u001b[0m:\u001b[93m31\u001b[0m:\u001b[93m28\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1134: \u001b[0mVariable declaration expected.\r\n\r\n\u001b[7m31\u001b[0m         const rowsUpdated] = await this.Notes.update(body, {\r\n\u001b[7m  \u001b[0m \u001b[91m                           ~\u001b[0m\r\n\u001b[96msrc/services/notes.service.ts\u001b[0m:\u001b[93m31\u001b[0m:\u001b[93m36\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m31\u001b[0m         const rowsUpdated] = await this.Notes.update(body, {\r\n\u001b[7m  \u001b[0m \u001b[91m                                   ~~~~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-10T09:41:42.551Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:41:47.794Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:41:47.959Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:41:53.916Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:41:54.149Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:41:56.962Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:41:57.138Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:41:59.993Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:42:00.258Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:42:03.110Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:42:03.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:42:06.570Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:42:06.749Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:42:08.307Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:42:08.493Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:42:10.367Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:42:10.625Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:42:12.023Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:42:12.229Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:42:15.477Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:42:15.693Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:42:17.128Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:42:17.286Z"}
+error: 
+    status - 500 
+    message - Error: Error updating note with ID 10: No note found with ID 10 to update
+    at NotesService.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:42:15)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/update/10 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-10T09:42:42.932Z"}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m33[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m33[0m         const rowsUpdated] = await this.Notes.update(body, {
+[7m  [0m [91m                         ~[0m
+[96msrc/services/notes.service.ts[0m:[93m33[0m:[93m28[0m - [91merror[0m[90m TS1134: [0mVariable declaration expected.
+
+[7m33[0m         const rowsUpdated] = await this.Notes.update(body, {
+[7m  [0m [91m                           ~[0m
+[96msrc/services/notes.service.ts[0m:[93m33[0m:[93m36[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m33[0m         const rowsUpdated] = await this.Notes.update(body, {
+[7m  [0m [91m                                   ~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m33[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m33[0m         const rowsUpdated] = await this.Notes.update(body, {
+[7m  [0m [91m                         ~[0m
+[96msrc/services/notes.service.ts[0m:[93m33[0m:[93m28[0m - [91merror[0m[90m TS1134: [0mVariable declaration expected.
+
+[7m33[0m         const rowsUpdated] = await this.Notes.update(body, {
+[7m  [0m [91m                           ~[0m
+[96msrc/services/notes.service.ts[0m:[93m33[0m:[93m36[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m33[0m         const rowsUpdated] = await this.Notes.update(body, {
+[7m  [0m [91m                                   ~~~~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Sat Aug 10 2024 15:13:36 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":9749.281},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":119628,"external":2342444,"heapTotal":53329920,"heapUsed":27878744,"rss":71872512},"pid":2468,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/services/notes.service.ts\u001b[0m:\u001b[93m33\u001b[0m:\u001b[93m26\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m33\u001b[0m         const rowsUpdated] = await this.Notes.update(body, {\r\n\u001b[7m  \u001b[0m \u001b[91m                         ~\u001b[0m\r\n\u001b[96msrc/services/notes.service.ts\u001b[0m:\u001b[93m33\u001b[0m:\u001b[93m28\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1134: \u001b[0mVariable declaration expected.\r\n\r\n\u001b[7m33\u001b[0m         const rowsUpdated] = await this.Notes.update(body, {\r\n\u001b[7m  \u001b[0m \u001b[91m                           ~\u001b[0m\r\n\u001b[96msrc/services/notes.service.ts\u001b[0m:\u001b[93m33\u001b[0m:\u001b[93m36\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m33\u001b[0m         const rowsUpdated] = await this.Notes.update(body, {\r\n\u001b[7m  \u001b[0m \u001b[91m                                   ~~~~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-10T09:43:36.573Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:43:41.940Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:43:42.137Z"}
+error: 
+    status - 500 
+    message - Error: Error updating note with ID 10: No note found with ID 10 to update
+    at NotesService.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:42:15)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/update/10 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-10T09:44:17.629Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:45:43.104Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:45:43.270Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:45:47.582Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:45:47.763Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:46:08.940Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:46:09.301Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:46:23.286Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:46:23.496Z"}
+error: 
+    status - 500 
+    message - Error: Error updating note with ID 10: No note found with ID 10 to update
+    at NotesService.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:42:15)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/update/10 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-10T09:46:43.931Z"}
+error: 
+    status - 500 
+    message - Error: Error updating note with ID 10: No note found with ID 10 to update
+    at NotesService.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:42:15)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/update/10 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-10T09:46:46.581Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:47:02.221Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:47:02.437Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:47:04.340Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:47:04.530Z"}
+error: 
+    status - 500 
+    message - Error: Error updating note with ID 10: No note found with ID 10 to update
+    at NotesService.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:42:15)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/update/10 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-10T09:47:16.670Z"}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m37[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m37[0m         if (rowsUpdated]) {
+[7m  [0m [91m                       ~[0m
+
+  [96msrc/services/notes.service.ts[0m:[93m37[0m:[93m12[0m
+    [7m37[0m         if (rowsUpdated]) {
+    [7m  [0m [96m           ~[0m
+    The parser expected to find a ')' to match the '(' token here.
+[96msrc/services/notes.service.ts[0m:[93m37[0m:[93m25[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m37[0m         if (rowsUpdated]) {
+[7m  [0m [91m                        ~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m37[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m37[0m         if (rowsUpdated]) {
+[7m  [0m [91m                       ~[0m
+
+  [96msrc/services/notes.service.ts[0m:[93m37[0m:[93m12[0m
+    [7m37[0m         if (rowsUpdated]) {
+    [7m  [0m [96m           ~[0m
+    The parser expected to find a ')' to match the '(' token here.
+[96msrc/services/notes.service.ts[0m:[93m37[0m:[93m25[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m37[0m         if (rowsUpdated]) {
+[7m  [0m [91m                        ~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Sat Aug 10 2024 15:17:45 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":9998.718},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":119513,"external":2342444,"heapTotal":53329920,"heapUsed":27935840,"rss":71954432},"pid":15212,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/services/notes.service.ts\u001b[0m:\u001b[93m37\u001b[0m:\u001b[93m24\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m')' expected.\r\n\r\n\u001b[7m37\u001b[0m         if (rowsUpdated]) {\r\n\u001b[7m  \u001b[0m \u001b[91m                       ~\u001b[0m\r\n\r\n  \u001b[96msrc/services/notes.service.ts\u001b[0m:\u001b[93m37\u001b[0m:\u001b[93m12\u001b[0m\r\n    \u001b[7m37\u001b[0m         if (rowsUpdated]) {\r\n    \u001b[7m  \u001b[0m \u001b[96m           ~\u001b[0m\r\n    The parser expected to find a ')' to match the '(' token here.\r\n\u001b[96msrc/services/notes.service.ts\u001b[0m:\u001b[93m37\u001b[0m:\u001b[93m25\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1128: \u001b[0mDeclaration or statement expected.\r\n\r\n\u001b[7m37\u001b[0m         if (rowsUpdated]) {\r\n\u001b[7m  \u001b[0m \u001b[91m                        ~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-10T09:47:46.002Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:47:51.200Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:47:51.421Z"}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m37[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m37[0m         if (rowsUpdated]) {
+[7m  [0m [91m                       ~[0m
+
+  [96msrc/services/notes.service.ts[0m:[93m37[0m:[93m12[0m
+    [7m37[0m         if (rowsUpdated]) {
+    [7m  [0m [96m           ~[0m
+    The parser expected to find a ')' to match the '(' token here.
+[96msrc/services/notes.service.ts[0m:[93m37[0m:[93m25[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m37[0m         if (rowsUpdated]) {
+[7m  [0m [91m                        ~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m37[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m37[0m         if (rowsUpdated]) {
+[7m  [0m [91m                       ~[0m
+
+  [96msrc/services/notes.service.ts[0m:[93m37[0m:[93m12[0m
+    [7m37[0m         if (rowsUpdated]) {
+    [7m  [0m [96m           ~[0m
+    The parser expected to find a ')' to match the '(' token here.
+[96msrc/services/notes.service.ts[0m:[93m37[0m:[93m25[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m37[0m         if (rowsUpdated]) {
+[7m  [0m [91m                        ~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Sat Aug 10 2024 15:18:26 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":10039.265},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":119513,"external":2342444,"heapTotal":53592064,"heapUsed":27078504,"rss":71585792},"pid":12320,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/services/notes.service.ts\u001b[0m:\u001b[93m37\u001b[0m:\u001b[93m24\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m')' expected.\r\n\r\n\u001b[7m37\u001b[0m         if (rowsUpdated]) {\r\n\u001b[7m  \u001b[0m \u001b[91m                       ~\u001b[0m\r\n\r\n  \u001b[96msrc/services/notes.service.ts\u001b[0m:\u001b[93m37\u001b[0m:\u001b[93m12\u001b[0m\r\n    \u001b[7m37\u001b[0m         if (rowsUpdated]) {\r\n    \u001b[7m  \u001b[0m \u001b[96m           ~\u001b[0m\r\n    The parser expected to find a ')' to match the '(' token here.\r\n\u001b[96msrc/services/notes.service.ts\u001b[0m:\u001b[93m37\u001b[0m:\u001b[93m25\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1128: \u001b[0mDeclaration or statement expected.\r\n\r\n\u001b[7m37\u001b[0m         if (rowsUpdated]) {\r\n\u001b[7m  \u001b[0m \u001b[91m                        ~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-10T09:48:26.555Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:48:31.174Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:48:31.367Z"}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m37[0m:[93m28[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m37[0m         if (rowsUpdated ===) {
+[7m  [0m [91m                           ~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/services/notes.service.ts[0m:[93m37[0m:[93m28[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m37[0m         if (rowsUpdated ===) {
+[7m  [0m [91m                           ~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-8363646698562206.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Sat Aug 10 2024 15:18:35 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":10047.718},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":118929,"external":2342444,"heapTotal":53329920,"heapUsed":28324448,"rss":72380416},"pid":1092,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/services/notes.service.ts\u001b[0m:\u001b[93m37\u001b[0m:\u001b[93m28\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1109: \u001b[0mExpression expected.\r\n\r\n\u001b[7m37\u001b[0m         if (rowsUpdated ===) {\r\n\u001b[7m  \u001b[0m \u001b[91m                           ~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-10T09:48:35.009Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\services\\notes.service.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-8363646698562206.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:48:39.689Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:48:39.911Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:48:42.436Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:48:42.692Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:48:49.236Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:48:49.430Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:48:53.563Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:48:53.829Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:48:55.884Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:48:56.064Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:50:43.707Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:02:29.131Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:03:19.672Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:04:40.846Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:06:02.560Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:10:18.287Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:11:56.743Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:12:58.849Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:13:20.109Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:16:55.589Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:20:19.808Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:20:39.950Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:21:44.263Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:23:00.992Z"}

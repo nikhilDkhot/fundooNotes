@@ -8,9 +8,11 @@ import notes from '../models/notes';
 class NotesService {
     private Notes = notes(sequelize,DataTypes);
 
-    public createNotes = async (body: any): Promise<any> => {
+    public createNotes = async (body: any,id: number): Promise<any> => {
         try {
+            
             console.log('inside note service create notes');
+            body.createdBy = id;
             const data = await this.Notes.create(body);
             return data;
         } catch (error) {
@@ -20,15 +22,22 @@ class NotesService {
 
     public updateNotes = async (id : number , body : any) : Promise<any> =>{
        try{
-        console.log('update notes');
+       /*  console.log('update notes');
         const [rowsUpdated, [updatedNote]] = await this.Notes.update(body, {
+          where: { id },
+          returning: true,
+        }); */
+        console.log(id);
+        console.log(body)
+        
+        const [rowsUpdated,[updatedNote]] = await this.Notes.update(body, {
           where: { id },
           returning: true,
         });
         if (rowsUpdated === 0) {
             throw new Error(`No note found with ID ${id} to update`);
           }
-
+          return updatedNote;
        }catch(error){
         throw new Error(`Error updating note with ID ${id}: ${error.message}`);
 
@@ -64,7 +73,7 @@ class NotesService {
     public getNotes = async (id: number): Promise<any> => {
         try {
           console.log('inside note services, Getting notes');
-          const data = await this.Notes.findOne({ where: { id } });
+          const data = await this.Notes.findOne({ where: { id:id } });
           return data;
         } catch (error) {
           throw new Error(`Error fetching note with ID ${id}: ${error.message}`);

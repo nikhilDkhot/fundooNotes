@@ -119,11 +119,12 @@ class UserService {
   //update a user
   public updateUser = async (id, body) => {
 
-    const hashedPassword = await bcrypt.hash(body.password, saltRound);
-      body.password = hashedPassword;
+   // const hashedPassword = await bcrypt.hash(body.password, saltRound);
+     // body.password = hashedPassword;
     
     await this.User.update(body, {
-      where: { id: id }
+      where: { id: id } , 
+      individualHooks: true,
     });
     return body;
   };
@@ -146,8 +147,8 @@ class UserService {
   };
 
   public forgetUser = async (email) => {
-    const data = await this.User.findOne({ where: email });
-   // const token = await this.Utils.forgetUser(data.email);
+    const data = await this.User.findOne({ where:{email:email}  });
+   
     const token = await this.Utils.forgetUser(data.email);
     return token;
   }
@@ -156,8 +157,8 @@ class UserService {
     const email = await this.Utils.forgetUserVerify(token);
     if (email) {
 
-      const hashedPassword = await bcrypt.hash(password, saltRound);
-      password = hashedPassword;
+      //const hashedPassword = await bcrypt.hash(password, saltRound);
+      //password = hashedPassword;
       const data = await this.User.update({password:password}, { where: { email : email }, individualHooks: true });
       return data;
     }

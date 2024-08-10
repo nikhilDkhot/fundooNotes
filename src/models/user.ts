@@ -69,6 +69,11 @@ export default (sequelize, DataTypes) => {
           if (user.password) {
             user.password = await bcrypt.hash(user.password, 10);
           }
+        },
+        beforeUpdate :async (user: User, options: any) => {
+          if (user.changed('password')) {
+            user.password = await bcrypt.hash(user.password, 10);
+          }
         }
       } 
     }

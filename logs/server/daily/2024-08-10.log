@@ -1,0 +1,227 @@
+info: Connected to the database. {"timestamp":"2024-08-10T06:07:36.249Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T06:09:51.554Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T06:09:51.717Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T06:13:05.900Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T06:19:46.820Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T06:20:25.756Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T06:21:17.205Z"}
+error: 
+    status - 500 
+    message - Error: error fetching all notes : WHERE parameter "createdBy" has invalid "undefined" value
+    at NotesService.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:62:19)
+    at Generator.throw (<anonymous>)
+    at rejected (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:29:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/allNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-08-10T06:24:21.440Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T06:27:24.415Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T06:27:24.581Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T06:27:27.570Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T06:27:32.247Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T06:27:32.429Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T06:27:35.781Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T06:27:35.948Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T06:27:40.550Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T06:27:40.835Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T07:14:34.237Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T07:21:19.643Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T07:29:47.289Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:01:56.781Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:01:57.223Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:04:48.437Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:05:33.036Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:07:31.242Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:17:49.520Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:56:35
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:4:12)
+    at noteAuth (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:46:20)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/update/10 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-10T09:22:08.663Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:28:03.915Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:28:11.950Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:28:12.164Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:28:16.421Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:28:20.657Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:28:26.550Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:28:31.241Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:28:35.778Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:28:35.937Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:28:47.092Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:28:47.280Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:31:14.237Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:31:19.112Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:31:19.348Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:31:34.673Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:31:34.865Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:31:39.440Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:31:39.626Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:31:56.731Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:33:40.905Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:34:19.237Z"}
+error: 
+    status - 500 
+    message - Error: Error updating note with ID 10: No note found with ID 10 to update
+    at NotesService.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:40:15)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/update/10 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-10T09:34:29.868Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:37:52.234Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:37:56.720Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:37:56.930Z"}
+error: 
+    status - 500 
+    message - Error: Error updating note with ID 10: No note found with ID 10 to update
+    at NotesService.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:40:15)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/update/10 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-10T09:38:28.466Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:40:50.740Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:41:17.920Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:41:21.967Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:41:22.115Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:41:42.744Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:41:47.794Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:41:47.959Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:41:53.916Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:41:54.149Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:41:56.962Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:41:57.138Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:41:59.993Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:42:00.258Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:42:03.110Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:42:03.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:42:06.570Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:42:06.749Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:42:08.307Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:42:08.493Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:42:10.367Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:42:10.625Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:42:12.023Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:42:12.229Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:42:15.477Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:42:15.693Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:42:17.128Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:42:17.286Z"}
+error: 
+    status - 500 
+    message - Error: Error updating note with ID 10: No note found with ID 10 to update
+    at NotesService.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:42:15)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/update/10 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-10T09:42:42.932Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:43:36.780Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:43:41.940Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:43:42.137Z"}
+error: 
+    status - 500 
+    message - Error: Error updating note with ID 10: No note found with ID 10 to update
+    at NotesService.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:42:15)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/update/10 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-10T09:44:17.629Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:45:43.104Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:45:43.270Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:45:47.582Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:45:47.763Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:46:08.940Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:46:09.301Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:46:23.286Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:46:23.496Z"}
+error: 
+    status - 500 
+    message - Error: Error updating note with ID 10: No note found with ID 10 to update
+    at NotesService.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:42:15)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/update/10 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-10T09:46:43.931Z"}
+error: 
+    status - 500 
+    message - Error: Error updating note with ID 10: No note found with ID 10 to update
+    at NotesService.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:42:15)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/update/10 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-10T09:46:46.581Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:47:02.221Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:47:02.437Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:47:04.340Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:47:04.530Z"}
+error: 
+    status - 500 
+    message - Error: Error updating note with ID 10: No note found with ID 10 to update
+    at NotesService.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:42:15)
+    at Generator.next (<anonymous>)
+    at fulfilled (E:\New journy\fundoNotes\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/update/10 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-10T09:47:16.670Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:47:46.256Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:47:51.200Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:47:51.421Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:48:26.792Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:48:31.174Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:48:31.367Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:48:35.246Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:48:39.689Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:48:39.911Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:48:42.436Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:48:42.692Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:48:49.236Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:48:49.430Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:48:53.563Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:48:53.829Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-10T09:48:55.884Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:48:56.064Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T09:50:43.707Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:02:29.131Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:03:19.672Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:04:40.846Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:06:02.560Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:10:18.287Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:11:56.743Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:12:58.849Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:13:20.109Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:16:55.589Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:20:19.808Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:20:39.950Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:21:44.263Z"}
+info: Connected to the database. {"timestamp":"2024-08-10T10:23:00.992Z"}

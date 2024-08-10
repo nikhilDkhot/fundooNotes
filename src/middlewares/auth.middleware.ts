@@ -54,7 +54,7 @@ export const noteAuth = async (
     bearerToken = bearerToken.split(' ')[1];
 
     const { id }: any = await jwt.verify(bearerToken,secert);
-    req.body.createdBy = id;
+    (req as any ).id = id;
     next();
   } catch (error) {
     next(error);

@@ -31,7 +31,7 @@ class NotesController {
         next: NextFunction
     ): Promise<any> => {
         try {
-            const data = await this.NoteService.createNotes(req.body);
+            const data = await this.NoteService.createNotes(req.body, (req as any).id);
             res.status(HttpStatus.OK).json({
                 code: HttpStatus.OK,
                 data: data,
@@ -65,7 +65,7 @@ class NotesController {
         next: NextFunction
     ): Promise<any> => {
         try {
-            const data = await this.NoteService.getAllNotes(req.body.createdBy);
+            const data = await this.NoteService.getAllNotes((req as any).id);
             res.status(HttpStatus.OK).json({
                 code: HttpStatus.OK,
                 data: data,
