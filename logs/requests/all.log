@@ -548,3 +548,271 @@ info: ::1 - - [10/Aug/2024:10:08:59 +0000] "POST /api/v1/notes/trash/10 HTTP/1.1
 
 info: ::1 - - [10/Aug/2024:10:15:38 +0000] "POST /api/v1/notes/trash/10 HTTP/1.1" 200 72 "-" "PostmanRuntime/7.41.0"
 
+info: ::1 - - [12/Aug/2024:09:41:40 +0000] "POST /api/v1/users/forget HTTP/1.1" 202 195 "-" "PostmanRuntime/7.41.0"
+
+info: ::1 - - [12/Aug/2024:09:42:11 +0000] "GET /api/v1/notes/allNotes HTTP/1.1" 500 52 "-" "PostmanRuntime/7.41.0"
+
+info: ::1 - - [12/Aug/2024:09:42:23 +0000] "GET /api/v1/notes/allNotes HTTP/1.1" 500 52 "-" "PostmanRuntime/7.41.0"
+
+info: ::1 - - [12/Aug/2024:09:43:34 +0000] "GET /api/v1/notes/allNotes HTTP/1.1" 500 52 "-" "PostmanRuntime/7.41.0"
+
+info: ::1 - - [12/Aug/2024:09:44:45 +0000] "POST /api/v1/users/forget HTTP/1.1" 202 195 "-" "PostmanRuntime/7.41.0"
+
+info: ::1 - - [12/Aug/2024:10:20:27 +0000] "POST /api/v1/users/forget HTTP/1.1" 202 195 "-" "PostmanRuntime/7.41.0"
+
+info: ::1 - - [12/Aug/2024:10:22:09 +0000] "POST /api/v1/users/reset HTTP/1.1" 202 254 "-" "PostmanRuntime/7.41.0"
+
+info: ::1 - - [12/Aug/2024:10:23:58 +0000] "POST /api/v1/users/reset HTTP/1.1" 202 254 "-" "PostmanRuntime/7.41.0"
+
+info: ::1 - - [12/Aug/2024:10:51:33 +0000] "POST /api/v1/users/login HTTP/1.1" 200 403 "-" "PostmanRuntime/7.41.0"
+
+info: ::1 - - [12/Aug/2024:10:51:54 +0000] "POST /api/v1/users/changePass HTTP/1.1" 500 46 "-" "PostmanRuntime/7.41.0"
+
+info: ::1 - - [12/Aug/2024:10:52:31 +0000] "POST /api/v1/users/changePass HTTP/1.1" 202 86 "-" "PostmanRuntime/7.41.0"
+
+info: ::1 - - [12/Aug/2024:10:53:00 +0000] "GET /api/v1/notes/allNotes HTTP/1.1" 200 61 "-" "PostmanRuntime/7.41.0"
+
+info: ::1 - - [12/Aug/2024:10:54:54 +0000] "POST /api/v1/notes/create HTTP/1.1" 200 199 "-" "PostmanRuntime/7.41.0"
+
+info: ::1 - - [12/Aug/2024:10:55:08 +0000] "GET /api/v1/notes/allNotes HTTP/1.1" 200 202 "-" "PostmanRuntime/7.41.0"
+
+info: ::1 - - [12/Aug/2024:11:04:56 +0000] "GET /api/v1/notes/getNote/18 HTTP/1.1" 200 199 "-" "PostmanRuntime/7.41.0"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:11:49:06 +0000] "POST /api/v1/users/register HTTP/1.1" 201 259 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:11:54:42 +0000] "POST /api/v1/users/register HTTP/1.1" 201 259 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:11:54:42 +0000] "POST /api/v1/users/login HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:11:59:29 +0000] "POST /api/v1/users/login HTTP/1.1" 200 403 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:12:12:42 +0000] "POST /api/v1/users/login HTTP/1.1" 200 403 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 202
+AssertionError: expected 500 to equal 202
+    at Test.<anonymous> (tests\integration\user.test.ts:68:42)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:628:28)
+    at Server.emit (node:events:514:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2273:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Aug 12 2024 17:42:42 GMT+0530 (India Standard Time)","error":{"actual":"500","expected":"202","message":"expected 500 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (tests\\integration\\user.test.ts:68:42)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:628:28)\n    at Server.emit (node:events:514:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2273:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":191494.812},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=50000","tests/**/*.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4764721,"external":7867855,"heapTotal":215105536,"heapUsed":191882576,"rss":261074944},"pid":13072,"uid":null,"version":"v20.10.0"},"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (tests\\integration\\user.test.ts:68:42)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:628:28)\n    at Server.emit (node:events:514:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2273:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":42,"file":"tests\\integration\\user.test.ts","function":null,"line":68,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":628,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":514,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2273,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:12:12:42 +0000] "POST /api/v1/users/changePass HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 202
+AssertionError: expected 500 to equal 202
+    at Test.<anonymous> (tests\integration\user.test.ts:68:42)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:628:28)
+    at Server.emit (node:events:514:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2273:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Aug 12 2024 17:42:42 GMT+0530 (India Standard Time)","error":{"actual":"500","expected":"202","message":"expected 500 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (tests\\integration\\user.test.ts:68:42)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:628:28)\n    at Server.emit (node:events:514:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2273:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":191494.828},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=50000","tests/**/*.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4772913,"external":7876047,"heapTotal":215105536,"heapUsed":191933064,"rss":261091328},"pid":13072,"uid":null,"version":"v20.10.0"},"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (tests\\integration\\user.test.ts:68:42)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:628:28)\n    at Server.emit (node:events:514:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2273:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":42,"file":"tests\\integration\\user.test.ts","function":null,"line":68,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":628,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":514,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2273,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:12:15:19 +0000] "POST /api/v1/users/login HTTP/1.1" 200 403 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 202
+AssertionError: expected 500 to equal 202
+    at Test.<anonymous> (tests\integration\user.test.ts:69:42)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:628:28)
+    at Server.emit (node:events:514:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2273:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Aug 12 2024 17:45:19 GMT+0530 (India Standard Time)","error":{"actual":"500","expected":"202","message":"expected 500 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (tests\\integration\\user.test.ts:69:42)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:628:28)\n    at Server.emit (node:events:514:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2273:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":191652.265},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=50000","tests/**/*.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4764577,"external":7867711,"heapTotal":216940544,"heapUsed":185976456,"rss":260153344},"pid":4444,"uid":null,"version":"v20.10.0"},"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (tests\\integration\\user.test.ts:69:42)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:628:28)\n    at Server.emit (node:events:514:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2273:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":42,"file":"tests\\integration\\user.test.ts","function":null,"line":69,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":628,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":514,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2273,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:12:15:19 +0000] "POST /api/v1/users/changePass HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 202
+AssertionError: expected 500 to equal 202
+    at Test.<anonymous> (tests\integration\user.test.ts:69:42)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:628:28)
+    at Server.emit (node:events:514:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2273:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Aug 12 2024 17:45:19 GMT+0530 (India Standard Time)","error":{"actual":"500","expected":"202","message":"expected 500 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (tests\\integration\\user.test.ts:69:42)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:628:28)\n    at Server.emit (node:events:514:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2273:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":191652.281},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=50000","tests/**/*.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4772769,"external":7875903,"heapTotal":216940544,"heapUsed":186026944,"rss":260169728},"pid":4444,"uid":null,"version":"v20.10.0"},"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (tests\\integration\\user.test.ts:69:42)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:628:28)\n    at Server.emit (node:events:514:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2273:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":42,"file":"tests\\integration\\user.test.ts","function":null,"line":69,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":628,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":514,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2273,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:12:16:41 +0000] "POST /api/v1/users/login HTTP/1.1" 200 403 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:12:16:41 +0000] "POST /api/v1/users/changePass HTTP/1.1" 202 82 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:12:20:46 +0000] "POST /api/v1/users/login HTTP/1.1" 200 403 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:12:20:46 +0000] "POST /api/v1/users/changePass HTTP/1.1" 202 77 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:16:00:43 +0000] "POST /api/v1/users/forgot HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:16:16:55 +0000] "POST /api/v1/users/forget HTTP/1.1" 202 981 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:16:17:16 +0000] "POST /api/v1/users/forget HTTP/1.1" 202 981 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:16:20:58 +0000] "POST /api/v1/users/forget HTTP/1.1" 202 981 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:16:33:04 +0000] "POST /api/v1/users/forget HTTP/1.1" 202 981 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:16:35:25 +0000] "POST /api/v1/users/forget HTTP/1.1" 202 981 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:16:41:38 +0000] "POST /api/v1/users/forget HTTP/1.1" 202 195 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:16:52:39 +0000] "POST /api/v1/users/forget HTTP/1.1" 202 195 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:16:54:02 +0000] "POST /api/v1/users/forget HTTP/1.1" 202 195 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:17:07:40 +0000] "POST /api/v1/users/forget HTTP/1.1" 202 195 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:17:07:41 +0000] "POST /api/v1/users/reset HTTP/1.1" 202 254 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:17:09:29 +0000] "POST /api/v1/users/forget HTTP/1.1" 202 195 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:17:09:30 +0000] "POST /api/v1/users/reset HTTP/1.1" 202 254 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:17:16:33 +0000] "POST /api/v1/users/forget HTTP/1.1" 202 195 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:17:16:34 +0000] "POST /api/v1/users/reset HTTP/1.1" 202 254 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:17:18:19 +0000] "POST /api/v1/users/forget HTTP/1.1" 202 195 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:17:18:19 +0000] "POST /api/v1/users/reset HTTP/1.1" 202 254 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:17:18:53 +0000] "POST /api/v1/users/forget HTTP/1.1" 202 195 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:17:18:54 +0000] "POST /api/v1/users/reset HTTP/1.1" 202 254 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:17:24:59 +0000] "POST /api/v1/users/forget HTTP/1.1" 202 195 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:17:24:59 +0000] "POST /api/v1/users/reset HTTP/1.1" 202 254 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [12/Aug/2024:17:30:10 +0000] "POST /api/v1/users/forget HTTP/1.1" 202 195 "-" "PostmanRuntime/7.41.0"
+
+info: ::1 - - [12/Aug/2024:17:30:44 +0000] "POST /api/v1/users/reset HTTP/1.1" 202 254 "-" "PostmanRuntime/7.41.0"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:17:34:32 +0000] "POST /api/v1/users/forget HTTP/1.1" 202 195 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'password')
+TypeError: Cannot read properties of undefined (reading 'password')
+    at Test.<anonymous> (tests\integration\user.test.ts:101:71)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:628:28)
+    at Server.emit (node:events:514:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2273:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Aug 12 2024 23:04:32 GMT+0530 (India Standard Time)","error":{"uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":210805.171},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=50000","tests/**/*.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4751132,"external":7854266,"heapTotal":214056960,"heapUsed":191280704,"rss":255074304},"pid":10040,"uid":null,"version":"v20.10.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'password')\n    at Test.<anonymous> (tests\\integration\\user.test.ts:101:71)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:628:28)\n    at Server.emit (node:events:514:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2273:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":71,"file":"tests\\integration\\user.test.ts","function":null,"line":101,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":628,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":514,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2273,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:17:34:32 +0000] "POST /api/v1/users/reset HTTP/1.1" 202 254 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'password')
+TypeError: Cannot read properties of undefined (reading 'password')
+    at Test.<anonymous> (tests\integration\user.test.ts:101:71)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:628:28)
+    at Server.emit (node:events:514:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2273:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Aug 12 2024 23:04:32 GMT+0530 (India Standard Time)","error":{"uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":210805.187},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=50000","tests/**/*.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4751132,"external":7854266,"heapTotal":214056960,"heapUsed":191324840,"rss":255090688},"pid":10040,"uid":null,"version":"v20.10.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'password')\n    at Test.<anonymous> (tests\\integration\\user.test.ts:101:71)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:628:28)\n    at Server.emit (node:events:514:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2273:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":71,"file":"tests\\integration\\user.test.ts","function":null,"line":101,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":628,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":514,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2273,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:17:35:01 +0000] "POST /api/v1/users/forget HTTP/1.1" 202 195 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:17:35:01 +0000] "POST /api/v1/users/reset HTTP/1.1" 202 254 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:18:09:07 +0000] "POST /api/v1/users/login HTTP/1.1" 200 403 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (tests\integration\note.test.ts:36:46)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:628:28)
+    at Server.emit (node:events:514:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2273:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Aug 12 2024 23:39:07 GMT+0530 (India Standard Time)","error":{"actual":"404","expected":"200","message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (tests\\integration\\note.test.ts:36:46)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:628:28)\n    at Server.emit (node:events:514:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2273:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":212880.078},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=50000","tests/**/*.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4740286,"external":7843420,"heapTotal":217989120,"heapUsed":185261608,"rss":259182592},"pid":12836,"uid":null,"version":"v20.10.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (tests\\integration\\note.test.ts:36:46)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:628:28)\n    at Server.emit (node:events:514:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2273:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":46,"file":"tests\\integration\\note.test.ts","function":null,"line":36,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":628,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":514,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2273,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:18:09:07 +0000] "POST /api/v1/notes HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (tests\integration\note.test.ts:36:46)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:628:28)
+    at Server.emit (node:events:514:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2273:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Aug 12 2024 23:39:07 GMT+0530 (India Standard Time)","error":{"actual":"404","expected":"200","message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (tests\\integration\\note.test.ts:36:46)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:628:28)\n    at Server.emit (node:events:514:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2273:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":212880.093},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=50000","tests/**/*.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4740286,"external":7843420,"heapTotal":217989120,"heapUsed":185311112,"rss":259198976},"pid":12836,"uid":null,"version":"v20.10.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (tests\\integration\\note.test.ts:36:46)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:628:28)\n    at Server.emit (node:events:514:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2273:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":46,"file":"tests\\integration\\note.test.ts","function":null,"line":36,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":628,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":514,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2273,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:18:12:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 403 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (tests\integration\note.test.ts:36:46)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:628:28)
+    at Server.emit (node:events:514:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2273:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Aug 12 2024 23:42:15 GMT+0530 (India Standard Time)","error":{"actual":"500","expected":"200","message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (tests\\integration\\note.test.ts:36:46)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:628:28)\n    at Server.emit (node:events:514:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2273:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":213068.375},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=50000","tests/**/*.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4725015,"external":7827701,"heapTotal":217202688,"heapUsed":183368168,"rss":262053888},"pid":4024,"uid":null,"version":"v20.10.0"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (tests\\integration\\note.test.ts:36:46)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:628:28)\n    at Server.emit (node:events:514:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2273:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":46,"file":"tests\\integration\\note.test.ts","function":null,"line":36,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":628,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":514,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2273,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:18:12:15 +0000] "POST /api/v1/notes/create HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (tests\integration\note.test.ts:36:46)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:628:28)
+    at Server.emit (node:events:514:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2273:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Aug 12 2024 23:42:15 GMT+0530 (India Standard Time)","error":{"actual":"500","expected":"200","message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (tests\\integration\\note.test.ts:36:46)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:628:28)\n    at Server.emit (node:events:514:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2273:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":213068.39},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=50000","tests/**/*.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4725015,"external":7827701,"heapTotal":217464832,"heapUsed":183459848,"rss":262074368},"pid":4024,"uid":null,"version":"v20.10.0"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (tests\\integration\\note.test.ts:36:46)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:628:28)\n    at Server.emit (node:events:514:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2273:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":46,"file":"tests\\integration\\note.test.ts","function":null,"line":36,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":628,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":514,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2273,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:18:17:16 +0000] "POST /api/v1/users/login HTTP/1.1" 200 403 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:18:17:16 +0000] "POST /api/v1/notes/create HTTP/1.1" 200 188 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:18:28:20 +0000] "POST /api/v1/users/login HTTP/1.1" 200 403 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (tests\integration\note.test.ts:50:46)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:628:28)
+    at Server.emit (node:events:514:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2273:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Aug 12 2024 23:58:20 GMT+0530 (India Standard Time)","error":{"actual":"404","expected":"200","message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (tests\\integration\\note.test.ts:50:46)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:628:28)\n    at Server.emit (node:events:514:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2273:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":214032.859},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=50000","tests/**/*.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4746581,"external":7849907,"heapTotal":217464832,"heapUsed":193866000,"rss":264392704},"pid":4712,"uid":null,"version":"v20.10.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (tests\\integration\\note.test.ts:50:46)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:628:28)\n    at Server.emit (node:events:514:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2273:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":46,"file":"tests\\integration\\note.test.ts","function":null,"line":50,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":628,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":514,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2273,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:18:28:20 +0000] "PUT /api/v1/notes/update/19 HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (tests\integration\note.test.ts:50:46)
+    at Test.assert (node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:628:28)
+    at Server.emit (node:events:514:28)
+    at Server.emit (node:domain:488:12)
+    at emitCloseNT (node:net:2273:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Aug 12 2024 23:58:20 GMT+0530 (India Standard Time)","error":{"actual":"404","expected":"200","message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (tests\\integration\\note.test.ts:50:46)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:628:28)\n    at Server.emit (node:events:514:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2273:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","uncaught":true},"exception":true,"os":{"loadavg":[0,0,0],"uptime":214032.859},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","ts-node/register","--timeout=50000","tests/**/*.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":4746581,"external":7849907,"heapTotal":217464832,"heapUsed":193915504,"rss":264400896},"pid":4712,"uid":null,"version":"v20.10.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (tests\\integration\\note.test.ts:50:46)\n    at Test.assert (node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:628:28)\n    at Server.emit (node:events:514:28)\n    at Server.emit (node:domain:488:12)\n    at emitCloseNT (node:net:2273:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":46,"file":"tests\\integration\\note.test.ts","function":null,"line":50,"method":null,"native":false},{"column":6,"file":"node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":628,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":514,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Server.emit","line":488,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2273,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:18:28:49 +0000] "POST /api/v1/users/login HTTP/1.1" 200 403 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:18:28:49 +0000] "POST /api/v1/notes/update/19 HTTP/1.1" 200 201 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:18:32:49 +0000] "POST /api/v1/users/login HTTP/1.1" 200 403 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:18:32:49 +0000] "GET /api/v1/notes/allNotes HTTP/1.1" 200 485 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:18:35:08 +0000] "POST /api/v1/users/login HTTP/1.1" 200 403 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:18:35:08 +0000] "GET /api/v1/notes/getNote/19 HTTP/1.1" 200 201 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:18:37:03 +0000] "POST /api/v1/users/login HTTP/1.1" 200 403 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:18:37:03 +0000] "POST /api/v1/notes/archive/19 HTTP/1.1" 200 73 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:18:41:00 +0000] "POST /api/v1/users/login HTTP/1.1" 200 403 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:18:41:00 +0000] "POST /api/v1/notes/trash/19 HTTP/1.1" 200 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:18:44:37 +0000] "POST /api/v1/users/login HTTP/1.1" 200 403 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [12/Aug/2024:18:44:37 +0000] "POST /api/v1/notes/delete/19 HTTP/1.1" 200 72 "-" "node-superagent/3.8.3"
+

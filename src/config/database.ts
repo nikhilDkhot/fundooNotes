@@ -37,7 +37,7 @@ const sequelize = new Sequelize(DATABASE, USERNAME, PASSWORD, {
 sequelize
   .authenticate()
   .then(() => {
-    console.log("data base madhe ahe");
+    console.log("database.ts madhe ahe");
     
     logger.info('Connected to the database.');
   })
@@ -46,7 +46,7 @@ sequelize
   });
 
 //sequelize.sync({force:true});
-console.log("hello");
+console.log("hello in database.ts");
 
 sequelize.sync();
 

@@ -8,12 +8,13 @@ import helmet from 'helmet';
 import routes from './routes';
 import ErrorHandler from './middlewares/error.middleware';
 import Logger from './config/logger';
+import morgan from 'morgan';
 
 //swagger 
 const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('./doc/swagger-output.json');
 
-import morgan from 'morgan';
+
 
 class App {
   public app: Application;
@@ -48,6 +49,9 @@ class App {
   public initializeRoutes(): void {
     this.app.use(`/api/${this.api_version}`, routes());
     this.app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+    this.app.get('/test', (req, res) => {
+      res.send('Test route is working');
+    });
   }
 
   public initializeErrorHandlers(): void {

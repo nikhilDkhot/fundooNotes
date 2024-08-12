@@ -1,0 +1,296 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T09:40:35.952Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T09:40:36.265Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:56:35
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:4:12)
+    at noteAuth (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:46:20)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/allNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-08-12T09:42:11.882Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:56:35
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:4:12)
+    at noteAuth (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:46:20)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/allNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-08-12T09:42:23.518Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:56:35
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:4:12)
+    at noteAuth (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:46:20)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/allNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-08-12T09:43:34.055Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T09:54:24.013Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T09:55:22.109Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T10:14:02.319Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T10:14:02.558Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T10:30:14.152Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:34:35
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:24:20)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/changePass 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-12T10:51:54.467Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T11:49:05.786Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T11:49:05.994Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T11:54:42.181Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T11:54:42.356Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T11:59:28.750Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T11:59:28.934Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T12:12:41.733Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T12:12:41.914Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:34:35
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:24:20)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\New journy\fundoNotes\fundooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\New journy\fundoNotes\fundooNotes\node_modules\body-parser\lib\types\json.js:104:7)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\New journy\fundoNotes\fundooNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\New journy\fundoNotes\fundooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\New journy\fundoNotes\fundooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/changePass 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-12T12:12:42.070Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T12:15:19.178Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T12:15:19.373Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:34:35
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:24:20)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\New journy\fundoNotes\fundooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\New journy\fundoNotes\fundooNotes\node_modules\body-parser\lib\types\json.js:104:7)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\New journy\fundoNotes\fundooNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\New journy\fundoNotes\fundooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\New journy\fundoNotes\fundooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/changePass 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-12T12:15:19.517Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T12:16:41.193Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T12:16:41.455Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T12:20:45.903Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T12:20:46.097Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T16:00:43.122Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T16:16:55.463Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T16:16:55.675Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T16:17:16.541Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T16:17:16.722Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T16:20:57.905Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T16:20:58.102Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T16:33:04.357Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T16:33:04.546Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T16:35:25.709Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T16:35:25.914Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T16:41:38.076Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T16:41:38.266Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T16:52:39.268Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T16:52:39.454Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T16:54:02.747Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T16:54:02.949Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T17:07:40.441Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T17:07:40.808Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T17:09:29.605Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T17:09:29.833Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T17:16:33.622Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T17:16:33.853Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T17:18:19.288Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T17:18:19.567Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T17:18:53.656Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T17:18:53.889Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T17:24:59.429Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T17:24:59.640Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T17:29:37.126Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T17:29:37.312Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T17:34:31.974Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T17:34:32.236Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T17:35:01.019Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T17:35:01.297Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T18:09:07.001Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T18:09:07.199Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T18:12:15.208Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T18:12:15.424Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:56:35
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:4:12)
+    at noteAuth (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:46:20)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\New journy\fundoNotes\fundooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (E:\New journy\fundoNotes\fundooNotes\node_modules\raw-body\index.js:238:16)
+    at done (E:\New journy\fundoNotes\fundooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (E:\New journy\fundoNotes\fundooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-12T18:12:15.620Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T18:17:16.100Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T18:17:16.382Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T18:28:19.672Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T18:28:19.957Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T18:28:48.649Z"}
+info: Connected to the database. {"timestamp":"2024-08-12T18:28:48.924Z"}

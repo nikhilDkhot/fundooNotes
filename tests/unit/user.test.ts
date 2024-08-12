@@ -49,6 +49,10 @@ const updateNoteObj = {
   "color": "white"
 };
 
+const updateSuperUserPass = {
+  "password": "nic77"
+}
+
 
 
 describe("Fundoo Notes app testing", () => {
@@ -79,17 +83,20 @@ describe("Fundoo Notes app testing", () => {
         expect(data).to.be.an('object');
     }) */
 
-    /* it("forget Password", async () => {
-      const data = await new UserService().forgetUser(userObj.email);
-      console.log(data , "********")
-      expect(data).to.be.an('string');
-    }) */
+     
+   /*   let token = '';
+    it("Forget user", async () => {
+            const data = await new UserService().forgetUser({"email": "abc6@gmail.com"});
+            token = data;
+            console.log(data);
+            expect(data).to.be.an('string');
+        }) 
 
-  /*   it("reset password", async () => {
-      const data = await new UserService().reset(userObj.email, userObj.password);
-      console.log(data, "********")
-      expect(data).to.be.an('object');
-    }) */
+       it("Reset user", async () => {
+            const data = await new UserService().reset(6, updateSuperUserPass.password);
+            console.log(data);
+            expect(data).to.be.an('array');
+        }) */ 
 
     //corret reset 
 
@@ -139,10 +146,10 @@ describe("Fundoo Notes app testing", () => {
   expect(data).to.be.an('string');
 }) */
 
-it("Delete Note", async () => {
+/*it("Delete Note", async () => {
   const data = await new NoteService().deleteNote(10); //10 is delete donot use it again
   expect(data).to.be.an('string');
-})
+})*/
 
   })
 

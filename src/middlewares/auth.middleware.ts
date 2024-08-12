@@ -61,7 +61,7 @@ export const noteAuth = async (
   }
 };
 
-export const forgetUserAuth = async (
+export const forgotUser = async (
   req: Request,
   res: Response,
   next: NextFunction
@@ -73,11 +73,12 @@ export const forgetUserAuth = async (
         code: HttpStatus.BAD_REQUEST,
         message: 'Authorization token is required'
       };
-    console.log("middleware: forgetUserAuth")
-    
-    req.body.email = bearerToken.split(' ')[1];
+    bearerToken = bearerToken.split(' ')[1];
 
+    const { id } : any = await Utils.tokenVerify(bearerToken, config.development.forget_secreat);
+    req.body.id = id;
     next();
+    
   } catch (error) {
     next(error);
   }

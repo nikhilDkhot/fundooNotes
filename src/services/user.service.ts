@@ -147,23 +147,34 @@ class UserService {
   };
 
   public forgetUser = async (email) => {
-    const data = await this.User.findOne({ where:{email:email}  });
-   
-    const token = await this.Utils.forgetUser(data.email);
-    return token;
+    try {
+      const data = await this.User.findOne({ where: email });
+      console.log(data);
+      if (data){
+        const token = await this.Utils.tokenGen(data.dataValues.id, config.development.forget_secreat);
+        return token;
+      } else {
+        return 'No User Found';
+      }
+      
+    } catch (error) {
+      return error;
+    }
+
   }
 
-  public reset = async (token, password) => {
-    const email = await this.Utils.forgetUserVerify(token);
-    if (email) {
+  public reset = async (id, password) => {
+    try {
+        const data = await this.User.update({ password: password }, { where: { id: id }, individualHooks: true });
+        console.log(data);
+        
+        return data;
+    } catch (error) {
+      return error;
+    } 
 
-      //const hashedPassword = await bcrypt.hash(password, saltRound);
-      //password = hashedPassword;
-      const data = await this.User.update({password:password}, { where: { email : email }, individualHooks: true });
-      return data;
-    }
-    return 'Invalid Token';
-  } 
+  }
+ 
 
 
 

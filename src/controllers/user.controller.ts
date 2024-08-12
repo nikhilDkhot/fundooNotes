@@ -165,7 +165,7 @@ public forgetUser = async (
     res.status(HttpStatus.ACCEPTED).json({
       code: HttpStatus.ACCEPTED,
       data: data,
-      message: 'User updated successfully'
+      message: 'user found successfully'
     });
   } catch (error) {
     next(error);
@@ -178,16 +178,17 @@ public reset = async (
   next: NextFunction
 ): Promise<any> => {
   try {
-    const data = await this.UserService.reset(req.body.email, req.body.password);
+    const data = await this.UserService.reset(req.body.id, req.body.password);
     res.status(HttpStatus.ACCEPTED).json({
       code: HttpStatus.ACCEPTED,
       data: data,
-      message: 'User updated successfully'
+      message: 'Password Reset'
     });
   } catch (error) {
     next(error);
   }
 };
+
 
 public updateUserPassword = async (
   req: Request,

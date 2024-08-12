@@ -1,7 +1,7 @@
 import express, { IRouter } from 'express';
 import userController from '../controllers/user.controller';
 import userValidator from '../validators/user.validator';
-import { userAuth,forgetUserAuth } from '../middlewares/auth.middleware';
+import { userAuth,forgotUser } from '../middlewares/auth.middleware';
 
 class UserRoutes {
   private UserController = new userController();
@@ -39,7 +39,7 @@ class UserRoutes {
 
     this.router.post('/forget', this.UserController.forgetUser)
 
-    this.router.post('/reset', forgetUserAuth , this.UserController.reset);
+    this.router.post('/reset', forgotUser , this.UserController.reset);
 
 
   };

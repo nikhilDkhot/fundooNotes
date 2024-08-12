@@ -3,17 +3,18 @@ import config from '../config/config.js'
 
  class Utils {
 
-    public forgetUser = async (body) => {
-        const token = await jwt.sign({email:body}, config.development.forget_secreat, { expiresIn: '1h' });
+    public async tokenGen(id, secreat) {
+        const token = await jwt.sign({ id: id }, secreat, { expiresIn: '1h' });
+       // console.log(token);
+        
         return token;
-
-      
     }
 
-   public forgetUserVerify = async (token) => {
-        const { email } : any = await jwt.verify(token, config.development.forget_secreat);
-        return email;
-    } 
+    public async tokenVerify(body, secreat) {
+        const data = await jwt.verify(body, secreat);
+        console.log(data,"in util****")
+        return data;
+    }
 
 }
 
