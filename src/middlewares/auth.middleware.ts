@@ -34,7 +34,23 @@ export const userAuth = async (
     const { id }: any = await jwt.verify(bearerToken,secert);
     req.body.id = id;
     next();
-  } catch (error) {
+  }  
+  /*try {
+    let bearerToken = req.header('Authorization');
+    if (!bearerToken)
+     throw {
+      code: HttpStatus.BAD_REQUEST,
+      message: 'Authorization token is required'
+     };
+    bearerToken = bearerToken.split(' ')[1];
+  
+    const { id }: any = await Utils.tokenVerify(
+     bearerToken,
+     config.development.secreat
+    );
+    req.body.id = id;
+    next();
+   }*/catch (error) {
     next(error);
   }
 };
@@ -45,7 +61,7 @@ export const noteAuth = async (
   next: NextFunction
 ): Promise<void> => {
   try {
-    let bearerToken = req.header('Authorization');
+     let bearerToken = req.header('Authorization');
     if (!bearerToken)
       throw {
         code: HttpStatus.BAD_REQUEST,
@@ -55,7 +71,23 @@ export const noteAuth = async (
 
     const { id }: any = await jwt.verify(bearerToken,secert);
     (req as any ).id = id;
-    next();
+    next(); 
+   /* try {
+      let bearerToken = req.header('Authorization');
+      if (!bearerToken)
+       throw {
+        code: HttpStatus.BAD_REQUEST,
+        message: 'Authorization token is required'
+       };
+      bearerToken = bearerToken.split(' ')[1];
+    
+      const { id }: any = await Utils.tokenVerify(
+       bearerToken,
+       config.development.secreat
+      );
+      req.body.id = id;
+      next();*/
+     
   } catch (error) {
     next(error);
   }

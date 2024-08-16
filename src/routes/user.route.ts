@@ -27,7 +27,7 @@ class UserRoutes {
     this.router.post('/login', //userAuth, 
     this.UserController.login);
 
-    //this.router.get('/getuser/:id', userAuth,  this.UserController.getUser);
+    this.router.get('/getuser/:id', userAuth,  this.UserController.getUser);
 
     //route to update a user by their id
     this.router.post('update/:id', this.UserController.updateUser);

@@ -1,22 +1,37 @@
 import sequelize, { DataTypes } from '../config/database';
-
-
 import notes from '../models/notes';
+import noteUtil from '../utils/note.util';
 
 
 
 class NotesService {
     private Notes = notes(sequelize,DataTypes);
+    public util = new noteUtil();
 
     public createNotes = async (body: any,id: number): Promise<any> => {
         try {
             
             console.log('inside note service create notes');
             body.createdBy = id;
-            const data = await this.Notes.create(body);
-            return data;
+            const sanitizedBody = Object.keys(body).reduce((result, key) => {
+              if (key !== 'id') {
+               result[key] = body[key];
+              }
+              return result;
+             }, {});
+             const data = await this.Notes.create(sanitizedBody);
+             if (data) {
+              const aba = await this.util.update(id, data);
+              //console.log(aba);
+              
+              return data;
+             } else {
+              return data;
+             }
+            
         } catch (error) {
-            throw new Error(`Error creating notes : ${error.message}`);
+            //throw new Error(`Error creating notes : ${error.message}`);
+            return error;
         }
     }
 
@@ -27,11 +42,17 @@ class NotesService {
           where: { id },
           returning: true,
         }); */
-        console.log(id);
-        console.log(body)
+        //console.log(id);
+        //console.log(body)
+        const sanitizedBody = Object.keys(body).reduce((result, key) => {
+          if (key !== 'id') {
+           result[key] = body[key];
+          }
+          return result;
+         }, {});
         
-        const [rowsUpdated,[updatedNote]] = await this.Notes.update(body, {
-          where: { id },
+        const [rowsUpdated,[updatedNote]] = await this.Notes.update(sanitizedBody, {
+          where: { id: id },
           returning: true,
         });
         if (rowsUpdated === 0) {
@@ -40,6 +61,7 @@ class NotesService {
           return updatedNote;
        }catch(error){
         throw new Error(`Error updating note with ID ${id}: ${error.message}`);
+        //return error;
 
        }
     }
@@ -62,11 +84,17 @@ class NotesService {
         try {
             console.log("getting all notes");
             const data = await this.Notes.findAll({ where: { createdBy: id } });
-            return data;
+            if (data) {
+              const aba = await this.util.set(id, data);
+              return data;
+             } else {
+              return data;
+             }
 
         } catch (error) {
 
             throw new Error(`error fetching all notes : ${error.message}`);
+            //return error;
         }
     }
     

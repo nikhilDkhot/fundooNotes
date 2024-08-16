@@ -2436,3 +2436,745 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T1
 info: Connected to the database. {"timestamp":"2024-08-12T18:41:00.412Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-12T18:44:37.466Z"}
 info: Connected to the database. {"timestamp":"2024-08-12T18:44:37.750Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T11:58:55.879Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T11:58:56.211Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:56:35
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:4:12)
+    at noteAuth (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:46:20)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/update/8 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-15T12:09:41.630Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:25:19.656Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:25:19.844Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:28:09.118Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:28:09.294Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:28:53.185Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:28:53.357Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:29:27.763Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:29:27.998Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:29:31.887Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:29:32.054Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:29:35.821Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:29:36.031Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:29:56.028Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:29:56.343Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:37:16.206Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:37:16.578Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:37:18.856Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:37:19.059Z"}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m75[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m75[0m   } catch (error) {
+[7m  [0m [91m  ~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m75[0m:[93m3[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m75[0m   } catch (error) {
+[7m  [0m [91m  ~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Thu Aug 15 2024 18:07:21 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":104399.109},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":117794,"external":2342444,"heapTotal":52805632,"heapUsed":28267168,"rss":72536064},"pid":1144,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m75\u001b[0m:\u001b[93m3\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1472: \u001b[0m'catch' or 'finally' expected.\r\n\r\n\u001b[7m75\u001b[0m   } catch (error) {\r\n\u001b[7m  \u001b[0m \u001b[91m  ~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-15T12:37:21.402Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m78[0m:[93m2[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m78[0m };
+[7m  [0m [91m ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m102[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'}' expected.
+
+[7m102[0m 
+[7m   [0m [91m[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m46[0m:[93m21[0m
+    [7m46[0m ): Promise<void> => {
+    [7m  [0m [96m                    ~[0m
+    The parser expected to find a '}' to match the '{' token here.
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m78[0m:[93m2[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m78[0m };
+[7m  [0m [91m ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m102[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'}' expected.
+
+[7m102[0m 
+[7m   [0m [91m[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m46[0m:[93m21[0m
+    [7m46[0m ): Promise<void> => {
+    [7m  [0m [96m                    ~[0m
+    The parser expected to find a '}' to match the '{' token here.
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Thu Aug 15 2024 18:07:27 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":104405.437},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":118316,"external":2342444,"heapTotal":53067776,"heapUsed":26946352,"rss":71184384},"pid":9236,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m78\u001b[0m:\u001b[93m2\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1472: \u001b[0m'catch' or 'finally' expected.\r\n\r\n\u001b[7m78\u001b[0m };\r\n\u001b[7m  \u001b[0m \u001b[91m ~\u001b[0m\r\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m102\u001b[0m:\u001b[93m1\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m'}' expected.\r\n\r\n\u001b[7m102\u001b[0m \r\n\u001b[7m   \u001b[0m \u001b[91m\u001b[0m\r\n\r\n  \u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m46\u001b[0m:\u001b[93m21\u001b[0m\r\n    \u001b[7m46\u001b[0m ): Promise<void> => {\r\n    \u001b[7m  \u001b[0m \u001b[96m                    ~\u001b[0m\r\n    The parser expected to find a '}' to match the '{' token here.\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-15T12:37:27.722Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m58[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m58[0m     next(); */
+[7m  [0m [91m            ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m58[0m:[93m14[0m - [91merror[0m[90m TS1161: [0mUnterminated regular expression literal.
+
+[7m58[0m     next(); */
+[7m  [0m [91m             ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m78[0m:[93m2[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m78[0m };
+[7m  [0m [91m ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m102[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'}' expected.
+
+[7m102[0m 
+[7m   [0m [91m[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m46[0m:[93m21[0m
+    [7m46[0m ): Promise<void> => {
+    [7m  [0m [96m                    ~[0m
+    The parser expected to find a '}' to match the '{' token here.
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m58[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m58[0m     next(); */
+[7m  [0m [91m            ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m58[0m:[93m14[0m - [91merror[0m[90m TS1161: [0mUnterminated regular expression literal.
+
+[7m58[0m     next(); */
+[7m  [0m [91m             ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m78[0m:[93m2[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m78[0m };
+[7m  [0m [91m ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m102[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'}' expected.
+
+[7m102[0m 
+[7m   [0m [91m[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m46[0m:[93m21[0m
+    [7m46[0m ): Promise<void> => {
+    [7m  [0m [96m                    ~[0m
+    The parser expected to find a '}' to match the '{' token here.
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Thu Aug 15 2024 18:08:02 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":104440.296},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":118889,"external":2342444,"heapTotal":53067776,"heapUsed":28361984,"rss":72413184},"pid":9080,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m58\u001b[0m:\u001b[93m13\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1109: \u001b[0mExpression expected.\r\n\r\n\u001b[7m58\u001b[0m     next(); */\r\n\u001b[7m  \u001b[0m \u001b[91m            ~\u001b[0m\r\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m58\u001b[0m:\u001b[93m14\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1161: \u001b[0mUnterminated regular expression literal.\r\n\r\n\u001b[7m58\u001b[0m     next(); */\r\n\u001b[7m  \u001b[0m \u001b[91m             ~\u001b[0m\r\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m78\u001b[0m:\u001b[93m2\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1472: \u001b[0m'catch' or 'finally' expected.\r\n\r\n\u001b[7m78\u001b[0m };\r\n\u001b[7m  \u001b[0m \u001b[91m ~\u001b[0m\r\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m102\u001b[0m:\u001b[93m1\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m'}' expected.\r\n\r\n\u001b[7m102\u001b[0m \r\n\u001b[7m   \u001b[0m \u001b[91m\u001b[0m\r\n\r\n  \u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m46\u001b[0m:\u001b[93m21\u001b[0m\r\n    \u001b[7m46\u001b[0m ): Promise<void> => {\r\n    \u001b[7m  \u001b[0m \u001b[96m                    ~\u001b[0m\r\n    The parser expected to find a '}' to match the '{' token here.\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-15T12:38:02.587Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:38:07.211Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:38:07.437Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at Utils.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:14:32)
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:4:12)
+    at Utils.tokenVerify (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:25:16)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:68:39 
+    url - /api/v1/notes/allNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-08-15T12:38:31.967Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at Utils.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:14:32)
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:4:12)
+    at Utils.tokenVerify (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:25:16)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:68:39 
+    url - /api/v1/notes/allNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-08-15T12:40:45.423Z"}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m37[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m'try' expected.
+
+[7m37[0m   }  */catch (error) {
+[7m  [0m [91m       ~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m37[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m'try' expected.
+
+[7m37[0m   }  */catch (error) {
+[7m  [0m [91m       ~~~~~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Thu Aug 15 2024 18:12:14 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":104692.25},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":117791,"external":2342444,"heapTotal":53329920,"heapUsed":27300728,"rss":71323648},"pid":844,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m37\u001b[0m:\u001b[93m8\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m'try' expected.\r\n\r\n\u001b[7m37\u001b[0m   }  */catch (error) {\r\n\u001b[7m  \u001b[0m \u001b[91m       ~~~~~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-15T12:42:14.533Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m38[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m'try' expected.
+
+[7m38[0m   catch (error) {
+[7m  [0m [91m  ~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m38[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m'try' expected.
+
+[7m38[0m   catch (error) {
+[7m  [0m [91m  ~~~~~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Thu Aug 15 2024 18:13:25 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":104762.75},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":117781,"external":2342444,"heapTotal":53067776,"heapUsed":27007304,"rss":71503872},"pid":9452,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m38\u001b[0m:\u001b[93m3\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m'try' expected.\r\n\r\n\u001b[7m38\u001b[0m   catch (error) {\r\n\u001b[7m  \u001b[0m \u001b[91m  ~~~~~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-15T12:43:25.046Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:43:29.643Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:43:29.837Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at Utils.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:14:32)
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:4:12)
+    at Utils.tokenVerify (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:25:16)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:84:39 
+    url - /api/v1/notes/allNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-08-15T12:44:10.917Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at Utils.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:14:32)
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:4:12)
+    at Utils.tokenVerify (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:25:16)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:84:39 
+    url - /api/v1/notes/allNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-08-15T12:44:14.709Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:47:08.815Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:47:09.033Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at Utils.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:14:32)
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:4:12)
+    at Utils.tokenVerify (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:25:16)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:47:37 
+    url - /api/v1/users/getuser/6 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-08-15T12:47:14.706Z"}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m'try' expected.
+
+[7m91[0m   }  */catch (error) {
+[7m  [0m [91m       ~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m'try' expected.
+
+[7m91[0m   }  */catch (error) {
+[7m  [0m [91m       ~~~~~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Thu Aug 15 2024 18:18:07 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":105045.687},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":117791,"external":2342444,"heapTotal":53329920,"heapUsed":27141288,"rss":71344128},"pid":13428,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m91\u001b[0m:\u001b[93m8\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m'try' expected.\r\n\r\n\u001b[7m91\u001b[0m   }  */catch (error) {\r\n\u001b[7m  \u001b[0m \u001b[91m       ~~~~~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-15T12:48:07.976Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m6[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m91[0m   }  */catch (error) {
+[7m  [0m [91m     ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m7[0m - [91merror[0m[90m TS1161: [0mUnterminated regular expression literal.
+
+[7m91[0m   }  */catch (error) {
+[7m  [0m [91m      ~~~~~~~~~~~~~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m94[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m94[0m };
+[7m  [0m [91m~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m6[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m91[0m   }  */catch (error) {
+[7m  [0m [91m     ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m7[0m - [91merror[0m[90m TS1161: [0mUnterminated regular expression literal.
+
+[7m91[0m   }  */catch (error) {
+[7m  [0m [91m      ~~~~~~~~~~~~~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m94[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m94[0m };
+[7m  [0m [91m~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Thu Aug 15 2024 18:18:20 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":105058.328},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":118377,"external":2342444,"heapTotal":53067776,"heapUsed":26902072,"rss":71311360},"pid":7780,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m91\u001b[0m:\u001b[93m6\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1472: \u001b[0m'catch' or 'finally' expected.\r\n\r\n\u001b[7m91\u001b[0m   }  */catch (error) {\r\n\u001b[7m  \u001b[0m \u001b[91m     ~\u001b[0m\r\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m91\u001b[0m:\u001b[93m7\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1161: \u001b[0mUnterminated regular expression literal.\r\n\r\n\u001b[7m91\u001b[0m   }  */catch (error) {\r\n\u001b[7m  \u001b[0m \u001b[91m      ~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m94\u001b[0m:\u001b[93m1\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1128: \u001b[0mDeclaration or statement expected.\r\n\r\n\u001b[7m94\u001b[0m };\r\n\u001b[7m  \u001b[0m \u001b[91m~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-15T12:48:20.611Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m'try' expected.
+
+[7m91[0m   }  */catch (error) {
+[7m  [0m [91m       ~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m'try' expected.
+
+[7m91[0m   }  */catch (error) {
+[7m  [0m [91m       ~~~~~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Thu Aug 15 2024 18:18:26 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":105064.125},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":117791,"external":2342444,"heapTotal":53067776,"heapUsed":27138496,"rss":71602176},"pid":5720,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m91\u001b[0m:\u001b[93m8\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m'try' expected.\r\n\r\n\u001b[7m91\u001b[0m   }  */catch (error) {\r\n\u001b[7m  \u001b[0m \u001b[91m       ~~~~~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-15T12:48:26.417Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m74[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m74[0m     next(); */
+[7m  [0m [91m            ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m74[0m:[93m14[0m - [91merror[0m[90m TS1161: [0mUnterminated regular expression literal.
+
+[7m74[0m     next(); */
+[7m  [0m [91m             ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m'try' expected.
+
+[7m91[0m   }  */catch (error) {
+[7m  [0m [91m       ~~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m94[0m:[93m2[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m94[0m };
+[7m  [0m [91m ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m118[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'}' expected.
+
+[7m118[0m 
+[7m   [0m [91m[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m62[0m:[93m21[0m
+    [7m62[0m ): Promise<void> => {
+    [7m  [0m [96m                    ~[0m
+    The parser expected to find a '}' to match the '{' token here.
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m74[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m74[0m     next(); */
+[7m  [0m [91m            ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m74[0m:[93m14[0m - [91merror[0m[90m TS1161: [0mUnterminated regular expression literal.
+
+[7m74[0m     next(); */
+[7m  [0m [91m             ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m'try' expected.
+
+[7m91[0m   }  */catch (error) {
+[7m  [0m [91m       ~~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m94[0m:[93m2[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m94[0m };
+[7m  [0m [91m ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m118[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'}' expected.
+
+[7m118[0m 
+[7m   [0m [91m[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m62[0m:[93m21[0m
+    [7m62[0m ): Promise<void> => {
+    [7m  [0m [96m                    ~[0m
+    The parser expected to find a '}' to match the '{' token here.
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Thu Aug 15 2024 18:18:31 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":105068.718},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":119166,"external":2342444,"heapTotal":53592064,"heapUsed":27305944,"rss":71454720},"pid":6948,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m74\u001b[0m:\u001b[93m13\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1109: \u001b[0mExpression expected.\r\n\r\n\u001b[7m74\u001b[0m     next(); */\r\n\u001b[7m  \u001b[0m \u001b[91m            ~\u001b[0m\r\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m74\u001b[0m:\u001b[93m14\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1161: \u001b[0mUnterminated regular expression literal.\r\n\r\n\u001b[7m74\u001b[0m     next(); */\r\n\u001b[7m  \u001b[0m \u001b[91m             ~\u001b[0m\r\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m91\u001b[0m:\u001b[93m8\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m'try' expected.\r\n\r\n\u001b[7m91\u001b[0m   }  */catch (error) {\r\n\u001b[7m  \u001b[0m \u001b[91m       ~~~~~\u001b[0m\r\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m94\u001b[0m:\u001b[93m2\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1472: \u001b[0m'catch' or 'finally' expected.\r\n\r\n\u001b[7m94\u001b[0m };\r\n\u001b[7m  \u001b[0m \u001b[91m ~\u001b[0m\r\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m118\u001b[0m:\u001b[93m1\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m'}' expected.\r\n\r\n\u001b[7m118\u001b[0m \r\n\u001b[7m   \u001b[0m \u001b[91m\u001b[0m\r\n\r\n  \u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m62\u001b[0m:\u001b[93m21\u001b[0m\r\n    \u001b[7m62\u001b[0m ): Promise<void> => {\r\n    \u001b[7m  \u001b[0m \u001b[96m                    ~\u001b[0m\r\n    The parser expected to find a '}' to match the '{' token here.\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-15T12:48:31.008Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m74[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m74[0m     next(); */
+[7m  [0m [91m            ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m74[0m:[93m14[0m - [91merror[0m[90m TS1161: [0mUnterminated regular expression literal.
+
+[7m74[0m     next(); */
+[7m  [0m [91m             ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m6[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m91[0m   }  */catch (error) {
+[7m  [0m [91m     ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m7[0m - [91merror[0m[90m TS1161: [0mUnterminated regular expression literal.
+
+[7m91[0m   }  */catch (error) {
+[7m  [0m [91m      ~~~~~~~~~~~~~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m94[0m:[93m1[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m94[0m };
+[7m  [0m [91m~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m74[0m:[93m13[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m74[0m     next(); */
+[7m  [0m [91m            ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m74[0m:[93m14[0m - [91merror[0m[90m TS1161: [0mUnterminated regular expression literal.
+
+[7m74[0m     next(); */
+[7m  [0m [91m             ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m6[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m91[0m   }  */catch (error) {
+[7m  [0m [91m     ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m7[0m - [91merror[0m[90m TS1161: [0mUnterminated regular expression literal.
+
+[7m91[0m   }  */catch (error) {
+[7m  [0m [91m      ~~~~~~~~~~~~~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m94[0m:[93m1[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m94[0m };
+[7m  [0m [91m~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Thu Aug 15 2024 18:18:35 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":105072.906},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":118946,"external":2342444,"heapTotal":53329920,"heapUsed":27436192,"rss":71659520},"pid":5828,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m74\u001b[0m:\u001b[93m13\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1109: \u001b[0mExpression expected.\r\n\r\n\u001b[7m74\u001b[0m     next(); */\r\n\u001b[7m  \u001b[0m \u001b[91m            ~\u001b[0m\r\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m74\u001b[0m:\u001b[93m14\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1161: \u001b[0mUnterminated regular expression literal.\r\n\r\n\u001b[7m74\u001b[0m     next(); */\r\n\u001b[7m  \u001b[0m \u001b[91m             ~\u001b[0m\r\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m91\u001b[0m:\u001b[93m6\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1472: \u001b[0m'catch' or 'finally' expected.\r\n\r\n\u001b[7m91\u001b[0m   }  */catch (error) {\r\n\u001b[7m  \u001b[0m \u001b[91m     ~\u001b[0m\r\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m91\u001b[0m:\u001b[93m7\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1161: \u001b[0mUnterminated regular expression literal.\r\n\r\n\u001b[7m91\u001b[0m   }  */catch (error) {\r\n\u001b[7m  \u001b[0m \u001b[91m      ~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m94\u001b[0m:\u001b[93m1\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1472: \u001b[0m'catch' or 'finally' expected.\r\n\r\n\u001b[7m94\u001b[0m };\r\n\u001b[7m  \u001b[0m \u001b[91m~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-15T12:48:35.199Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m6[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m91[0m   }  */catch (error) {
+[7m  [0m [91m     ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m7[0m - [91merror[0m[90m TS1161: [0mUnterminated regular expression literal.
+
+[7m91[0m   }  */catch (error) {
+[7m  [0m [91m      ~~~~~~~~~~~~~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m94[0m:[93m1[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m94[0m };
+[7m  [0m [91m~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m6[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m91[0m   }  */catch (error) {
+[7m  [0m [91m     ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m7[0m - [91merror[0m[90m TS1161: [0mUnterminated regular expression literal.
+
+[7m91[0m   }  */catch (error) {
+[7m  [0m [91m      ~~~~~~~~~~~~~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m94[0m:[93m1[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m94[0m };
+[7m  [0m [91m~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Thu Aug 15 2024 18:18:39 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":105077.234},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":118373,"external":2342444,"heapTotal":53067776,"heapUsed":27603840,"rss":71692288},"pid":11232,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m91\u001b[0m:\u001b[93m6\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1472: \u001b[0m'catch' or 'finally' expected.\r\n\r\n\u001b[7m91\u001b[0m   }  */catch (error) {\r\n\u001b[7m  \u001b[0m \u001b[91m     ~\u001b[0m\r\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m91\u001b[0m:\u001b[93m7\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1161: \u001b[0mUnterminated regular expression literal.\r\n\r\n\u001b[7m91\u001b[0m   }  */catch (error) {\r\n\u001b[7m  \u001b[0m \u001b[91m      ~~~~~~~~~~~~~~~~\u001b[0m\r\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m94\u001b[0m:\u001b[93m1\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1472: \u001b[0m'catch' or 'finally' expected.\r\n\r\n\u001b[7m94\u001b[0m };\r\n\u001b[7m  \u001b[0m \u001b[91m~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-15T12:48:39.521Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m'try' expected.
+
+[7m91[0m   }  */catch (error) {
+[7m  [0m [91m       ~~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m94[0m:[93m2[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m94[0m };
+[7m  [0m [91m ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m118[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'}' expected.
+
+[7m118[0m 
+[7m   [0m [91m[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m62[0m:[93m21[0m
+    [7m62[0m ): Promise<void> => {
+    [7m  [0m [96m                    ~[0m
+    The parser expected to find a '}' to match the '{' token here.
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m'try' expected.
+
+[7m91[0m   }  */catch (error) {
+[7m  [0m [91m       ~~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m94[0m:[93m2[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m94[0m };
+[7m  [0m [91m ~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m118[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'}' expected.
+
+[7m118[0m 
+[7m   [0m [91m[0m
+
+  [96msrc/middlewares/auth.middleware.ts[0m:[93m62[0m:[93m21[0m
+    [7m62[0m ): Promise<void> => {
+    [7m  [0m [96m                    ~[0m
+    The parser expected to find a '}' to match the '{' token here.
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Thu Aug 15 2024 18:19:04 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":105102.015},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":118593,"external":2342444,"heapTotal":53067776,"heapUsed":28331096,"rss":72720384},"pid":8476,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m91\u001b[0m:\u001b[93m8\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m'try' expected.\r\n\r\n\u001b[7m91\u001b[0m   }  */catch (error) {\r\n\u001b[7m  \u001b[0m \u001b[91m       ~~~~~\u001b[0m\r\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m94\u001b[0m:\u001b[93m2\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1472: \u001b[0m'catch' or 'finally' expected.\r\n\r\n\u001b[7m94\u001b[0m };\r\n\u001b[7m  \u001b[0m \u001b[91m ~\u001b[0m\r\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m118\u001b[0m:\u001b[93m1\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m'}' expected.\r\n\r\n\u001b[7m118\u001b[0m \r\n\u001b[7m   \u001b[0m \u001b[91m\u001b[0m\r\n\r\n  \u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m62\u001b[0m:\u001b[93m21\u001b[0m\r\n    \u001b[7m62\u001b[0m ): Promise<void> => {\r\n    \u001b[7m  \u001b[0m \u001b[96m                    ~\u001b[0m\r\n    The parser expected to find a '}' to match the '{' token here.\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-15T12:49:04.305Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m'try' expected.
+
+[7m91[0m   }  */catch (error) {
+[7m  [0m [91m       ~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m'try' expected.
+
+[7m91[0m   }  */catch (error) {
+[7m  [0m [91m       ~~~~~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Thu Aug 15 2024 18:19:27 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":105125.39},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":117791,"external":2342444,"heapTotal":54902784,"heapUsed":23215248,"rss":71950336},"pid":12612,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m91\u001b[0m:\u001b[93m8\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m'try' expected.\r\n\r\n\u001b[7m91\u001b[0m   }  */catch (error) {\r\n\u001b[7m  \u001b[0m \u001b[91m       ~~~~~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-15T12:49:27.674Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:49:32.777Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:49:32.938Z"}
+error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as post] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\index.js:521:19)
+    at NoteRoutes.routes (E:\New journy\fundoNotes\fundooNotes\src\routes\note.route.ts:19:17)
+    at new NoteRoutes (E:\New journy\fundoNotes\fundooNotes\src\routes\note.route.ts:14:10)
+    at routes (E:\New journy\fundoNotes\fundooNotes\src\routes\index.ts:19:25)
+    at App.initializeRoutes (E:\New journy\fundoNotes\fundooNotes\src\index.ts:50:52)
+    at new App (E:\New journy\fundoNotes\fundooNotes\src\index.ts:36:10)
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\index.ts:76:13)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 15 2024 18:19:46 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":105144.281},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":207972,"external":2448191,"heapTotal":72359936,"heapUsed":48927096,"rss":107675648},"pid":9100,"uid":null,"version":"v20.10.0"},"stack":"Error: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as post] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at NoteRoutes.routes (E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\note.route.ts:19:17)\n    at new NoteRoutes (E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\note.route.ts:14:10)\n    at routes (E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\index.ts:19:25)\n    at App.initializeRoutes (E:\\New journy\\fundoNotes\\fundooNotes\\src\\index.ts:50:52)\n    at new App (E:\\New journy\\fundoNotes\\fundooNotes\\src\\index.ts:36:10)\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\index.ts:76:13)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-15T12:49:46.562Z","trace":[{"column":15,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":216,"method":"<computed> [as post]","native":false},{"column":19,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":521,"method":"<computed> [as post]","native":false},{"column":17,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\note.route.ts","function":"NoteRoutes.routes","line":19,"method":"routes","native":false},{"column":10,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\note.route.ts","function":"new NoteRoutes","line":14,"method":null,"native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\routes\\index.ts","function":"routes","line":19,"method":null,"native":false},{"column":52,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\index.ts","function":"App.initializeRoutes","line":50,"method":"initializeRoutes","native":false},{"column":10,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\index.ts","function":"new App","line":36,"method":null,"native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\index.ts","function":null,"line":76,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m53[0m:[93m7[0m - [91merror[0m[90m TS1005: [0m'try' expected.
+
+[7m53[0m    }*/catch (error) {
+[7m  [0m [91m      ~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m53[0m:[93m7[0m - [91merror[0m[90m TS1005: [0m'try' expected.
+
+[7m53[0m    }*/catch (error) {
+[7m  [0m [91m      ~~~~~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Thu Aug 15 2024 18:19:53 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":105151.437},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":117789,"external":2342444,"heapTotal":53067776,"heapUsed":28478408,"rss":72658944},"pid":1564,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m53\u001b[0m:\u001b[93m7\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m'try' expected.\r\n\r\n\u001b[7m53\u001b[0m    }*/catch (error) {\r\n\u001b[7m  \u001b[0m \u001b[91m      ~~~~~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-15T12:49:53.729Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m53[0m:[93m7[0m - [91merror[0m[90m TS1005: [0m'try' expected.
+
+[7m53[0m    }*/catch (error) {
+[7m  [0m [91m      ~~~~~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m53[0m:[93m7[0m - [91merror[0m[90m TS1005: [0m'try' expected.
+
+[7m53[0m    }*/catch (error) {
+[7m  [0m [91m      ~~~~~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Thu Aug 15 2024 18:20:00 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":105158.546},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":117789,"external":2342444,"heapTotal":53329920,"heapUsed":27722784,"rss":71815168},"pid":11228,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m53\u001b[0m:\u001b[93m7\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m'try' expected.\r\n\r\n\u001b[7m53\u001b[0m    }*/catch (error) {\r\n\u001b[7m  \u001b[0m \u001b[91m      ~~~~~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-15T12:50:00.832Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:50:09.617Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:50:09.788Z"}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m118[0m:[93m1[0m - [91merror[0m[90m TS1010: [0m'*/' expected.
+
+[7m118[0m 
+[7m   [0m [91m[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m118[0m:[93m1[0m - [91merror[0m[90m TS1010: [0m'*/' expected.
+
+[7m118[0m 
+[7m   [0m [91m[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Thu Aug 15 2024 18:21:07 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":105225.437},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":117759,"external":2342444,"heapTotal":53329920,"heapUsed":27611376,"rss":71950336},"pid":8920,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m118\u001b[0m:\u001b[93m1\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1010: \u001b[0m'*/' expected.\r\n\r\n\u001b[7m118\u001b[0m \r\n\u001b[7m   \u001b[0m \u001b[91m\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-15T12:51:07.726Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m91[0m   } catch (error) {
+[7m  [0m [91m    ~~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m94[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m94[0m };
+[7m  [0m [91m~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m91[0m   } catch (error) {
+[7m  [0m [91m    ~~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m94[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m94[0m };
+[7m  [0m [91m~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Thu Aug 15 2024 18:21:15 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":105232.75},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":118048,"external":2342444,"heapTotal":53329920,"heapUsed":27756616,"rss":72028160},"pid":7384,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m91\u001b[0m:\u001b[93m5\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m91\u001b[0m   } catch (error) {\r\n\u001b[7m  \u001b[0m \u001b[91m    ~~~~~\u001b[0m\r\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m94\u001b[0m:\u001b[93m1\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1128: \u001b[0mDeclaration or statement expected.\r\n\r\n\u001b[7m94\u001b[0m };\r\n\u001b[7m  \u001b[0m \u001b[91m~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-15T12:51:15.043Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m91[0m   } catch (error) {
+[7m  [0m [91m    ~~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m94[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m94[0m };
+[7m  [0m [91m~[0m
+
+Error: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m91[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m91[0m   } catch (error) {
+[7m  [0m [91m    ~~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m94[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m94[0m };
+[7m  [0m [91m~[0m
+
+    at Object.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (E:\New journy\fundoNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:114:20)
+    at require.extensions.<computed> (C:\Users\hp\AppData\Local\Temp\ts-node-dev-hook-7809090993408492.js:71:20)
+    at Object.nodeDevHook [as .ts] (E:\New journy\fundoNotes\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12) {"date":"Thu Aug 15 2024 18:21:22 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":105240.531},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"E:\\New journy\\fundoNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":118048,"external":2342444,"heapTotal":53067776,"heapUsed":27678368,"rss":72118272},"pid":13348,"uid":null,"version":"v20.10.0"},"stack":"Error: ⨯ Unable to compile TypeScript:\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m91\u001b[0m:\u001b[93m5\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m',' expected.\r\n\r\n\u001b[7m91\u001b[0m   } catch (error) {\r\n\u001b[7m  \u001b[0m \u001b[91m    ~~~~~\u001b[0m\r\n\u001b[96msrc/middlewares/auth.middleware.ts\u001b[0m:\u001b[93m94\u001b[0m:\u001b[93m1\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1128: \u001b[0mDeclaration or statement expected.\r\n\r\n\u001b[7m94\u001b[0m };\r\n\u001b[7m  \u001b[0m \u001b[91m~\u001b[0m\r\n\n    at Object.<anonymous> (E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts:1:7)\n    at Module._compile (node:internal/modules/cjs/loader:1376:14)\n    at Module._compile (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js:71:20)\n    at Object.nodeDevHook [as .ts] (E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:1207:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)","timestamp":"2024-08-15T12:51:22.823Z","trace":[{"column":7,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\src\\middlewares\\auth.middleware.ts","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1376,"method":"_compile","native":false},{"column":25,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1435,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\hp\\AppData\\Local\\Temp\\ts-node-dev-hook-7809090993408492.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"E:\\New journy\\fundoNotes\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1207,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1023,"method":"_load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:51:27.526Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:51:27.722Z"}

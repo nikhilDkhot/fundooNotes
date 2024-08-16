@@ -1,0 +1,153 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T11:58:55.879Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T11:58:56.211Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:56:35
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:4:12)
+    at noteAuth (E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:46:20)
+    at Layer.handle [as handle_request] (E:\New journy\fundoNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/update/8 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-15T12:09:41.630Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:25:19.656Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:25:19.844Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:28:09.118Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:28:09.294Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:28:53.185Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:28:53.357Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:29:27.763Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:29:27.998Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:29:31.887Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:29:32.054Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:29:35.821Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:29:36.031Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:29:56.028Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:29:56.343Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:37:16.206Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:37:16.578Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:37:18.856Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:37:19.059Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:37:21.600Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:37:28.029Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:38:02.773Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:38:07.211Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:38:07.437Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at Utils.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:14:32)
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:4:12)
+    at Utils.tokenVerify (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:25:16)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:68:39 
+    url - /api/v1/notes/allNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-08-15T12:38:31.967Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at Utils.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:14:32)
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:4:12)
+    at Utils.tokenVerify (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:25:16)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:68:39 
+    url - /api/v1/notes/allNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-08-15T12:40:45.423Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:42:14.750Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:43:25.223Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:43:29.643Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:43:29.837Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at Utils.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:14:32)
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:4:12)
+    at Utils.tokenVerify (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:25:16)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:84:39 
+    url - /api/v1/notes/allNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-08-15T12:44:10.917Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at Utils.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:14:32)
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:4:12)
+    at Utils.tokenVerify (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:25:16)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:84:39 
+    url - /api/v1/notes/allNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-08-15T12:44:14.709Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:47:08.815Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:47:09.033Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (E:\New journy\fundoNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at Utils.<anonymous> (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:14:32)
+    at Generator.next (<anonymous>)
+    at E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:4:12)
+    at Utils.tokenVerify (E:\New journy\fundoNotes\fundooNotes\src\utils\user.util.ts:25:16)
+    at E:\New journy\fundoNotes\fundooNotes\src\middlewares\auth.middleware.ts:47:37 
+    url - /api/v1/users/getuser/6 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-08-15T12:47:14.706Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:48:08.182Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:48:20.785Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:48:26.646Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:48:31.185Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:48:35.375Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:48:39.827Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:49:04.520Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:49:27.895Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:49:32.777Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:49:32.938Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:49:46.787Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:49:53.912Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:50:01.004Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:50:09.617Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:50:09.788Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:51:07.943Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:51:15.223Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:51:23.213Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-08-15T12:51:27.526Z"}
+info: Connected to the database. {"timestamp":"2024-08-15T12:51:27.722Z"}
