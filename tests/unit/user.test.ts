@@ -17,13 +17,13 @@ const expect = chai.expect;
 
 
 const userObj = {
-  "firstName": "abc7",
-  "lastName": "xyz7",
-  "email": "abc7@gmail.com",
+  "firstName": "abc1",
+  "lastName": "xyz1",
+  "email": "abc1@gmail.com",
   "mobile": 8997896623,
-  "password": "nic77",
+  "password": "nic11",
   "gender": "male",
-  "dob": "1998-08-31"
+  "dob": "1998-08-20"
 }
 
 const updateUserObj = {
@@ -59,10 +59,10 @@ describe("Fundoo Notes app testing", () => {
 
   describe("User", () => {
 
-    /* it("register a user", async () => {
+    it("register a user", async () => {
        const data = await new UserService().register(userObj);
        expect(data).to.be.an('object');
-     })*/
+     })
 
     /*it("login user", async () => {
       const data = await new UserService().login(userObj.email , userObj.password );
